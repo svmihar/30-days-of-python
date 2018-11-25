@@ -9,5 +9,4 @@
 
 
 # Online Tutorial 
-- [Web Scraping with Python](https://drive.google.com/file/d/12sM0Rez5V3dawU6_FFpdts3M_GpyGCvL/view)
 - [Deep Learning with Keras](https://drive.google.com/file/d/1PBFkOLCx_9piTEKWv1USa3nup2trIHD0/view)
