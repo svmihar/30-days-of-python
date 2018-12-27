@@ -9,7 +9,7 @@
 # data frame data structures
 - transpose
 - mirip sama sql buat ngequery tabel 
-
+- you can chain operations from series, **avoid at all cost**
 
 ## nan
 not a number, pake isnan(nan) buat ngecek value, gak bisa langsung pake itenerary if condition  

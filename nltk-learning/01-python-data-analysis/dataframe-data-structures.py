@@ -21,7 +21,12 @@ all = pd.DataFrame([purchase_1,purchase_2,purchase_3], index=['Store 1','Store 2
 # print(all.loc['Store 2'])
 print("original")
 print(all)
-print("transposed")
+
+print("\ntransposed")
 print(all.T)
-print("transposed ")
+
+print("\ntransposed only show cost row ")
 print(all.T.loc['Cost'])
+
+print("\n slicing dataframe, only shows name and cost value")
+print(all.loc[:,["Name", "Cost"]])
