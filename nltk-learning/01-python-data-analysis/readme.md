@@ -1,3 +1,6 @@
+# intro
+this is generally a pandas.Dataframe usage for querying, for more info please refer to official documentation. 
+-------
 # series-data-structure
 - index
     bisa pake custom index, walau tidak di dalam seriesnya (di dalam dictionary) 
@@ -19,9 +22,31 @@
 - adding column tinggal tambah arraynya aja, dendgan set value sesuai keinginan
 
 # Boolean masking
+- if you add rows with Series, pandas will automatically input Nan values kalo gak ada yang di set ke dalam index nya, very nice. 
+*Venn Diagram*
+- outer join == union
+- inner join == intersection
+- left join _y
+- right join y_
 ## Group By 
+- splitting dataframe to chunks, return tuple sesuai kondisi grup nya 
 ## Apply 
- 
+## Scales
+### ratio scale
+- units equally space
+- height, weight
+### interval scale
+- no true zero, units equally space
+- arah mata angin, suhu 
+### ordinal scale
+- order of units is important, not equally space
+- nilai test
+### nominal scale (Categorical data) 
+- categorical units, but between categories there are no order to one another 
+- team of sports
+## Pivot table
+- aggregation function, by making a new table for reference purposes
+- marginal values, so we can see the relation between variables at a glance 
 
 ## nan
 not a number, pake isnan(nan) buat ngecek value, gak bisa langsung pake itenerary if condition  
