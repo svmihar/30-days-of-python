@@ -10,6 +10,18 @@
 - transpose
 - mirip sama sql buat ngequery tabel 
 - you can chain operations from series, **avoid at all cost**
+- drop function (deleting columns)
+    - returns a new variable, doesn't replace the old one. 
+    - bisa pake inplace=true di dalam argumennya biar gak perlu bikin copy variable lagi   
+    - axis, row yang akan di drop, kalo mau drop column berarti set ke 1
+- del function
+    - immediate effect, gak return apa2 
+- adding column tinggal tambah arraynya aja, dendgan set value sesuai keinginan
+
+# Boolean masking
+## Group By 
+## Apply 
+ 
 
 ## nan
 not a number, pake isnan(nan) buat ngecek value, gak bisa langsung pake itenerary if condition  
