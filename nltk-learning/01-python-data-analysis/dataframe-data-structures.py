@@ -57,34 +57,6 @@ print("\n only cost column")
 print(cost)
 data = pd.read_csv("suicide.csv", header=0)
 data.reset_index()
-# data.drop(0, inplace=True)
-    # data.drop('1', inplace=True)
-# print(data.iloc[0])
-
-# """ Querying Dataframe """
-# columns_to_keep = [
-#     'No. Tilang', 
-#     'Nama Terdakwa / Terpidana',
-#     'Alamat Terdakwa / Terpidana', 
-#     'Pasal Yang Dilanggar', 
-#     'Barang bukti',
-#     'No pol', 
-#     'Denda (Rp)',
-#     'Biaya Perkara (Rp)', 
-#     'Jenis kendaraan', 
-#     'Ket'
-# ]
-# data = data.columns[columns_to_keep]
-# print("\n setelah dikurangi kolomnya ", data.head(5))
-# print(data['age'])
-# age = data['age']
-# hitung = 0
-# for i in age:
-#     if(i == "5-15 years"):
-#         print(i)
-#         hitung+=1
-
-
 
 data['sex'].replace('female', 1, inplace=True)
 data['sex'].replace('male', 0, inplace=True)
