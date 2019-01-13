@@ -1,5 +1,7 @@
 import operator
 from itertools import product, permutations
+import sys 
+
 def mydiv(n, d):
     return n / d if d != 0 else 9999999
  
@@ -18,20 +20,25 @@ def brute24(nums):
             elif round(x(y(b,z(c,d)),a),5) == 24:
                 return f"({b} {op[y]} ({c} {op[z]} {d})) {op[x]} {a}"
     return '--Not Found--'
+
+def main(argv):
  
+    # make sure there are at least two arguments
+    if len(argv) == 4:
+        # convert arg 0 and 1 to int and pass them to add function
+        hasil = []
+        for i in range(len(argv)):
+            hasil.append(int(argv[i]))
+        print ('\n',brute24(hasil), '\n')
+    else:
+        print ("\nUsage: python core.spy <number1> <number2> <number3> <number4> \n")
+        print ("Example: python sys_argv.py 1 2 3 4\n")
+        sys.exit(2) 
+
 if __name__ == '__main__':
-    #nums = eval(input('Four integers in the range 1:9 inclusive, separated by commas: '))
-    for nums in [
-        [9,4,4,5],
-        [1,7,2,7],
-        [5,7,5,4],
-        [1,4,6,6],
-        [2,3,7,3],
-        [8,7,9,7],
-        [1,6,2,6],
-        [7,9,4,1],
-        [6,4,2,2],
-        [5,7,9,7],
-        [3,3,8,8],  # Difficult case requiring precise division
-            ]:
-        print(f"{nums} -> {brute24(nums)}")
+    main(sys.argv[1:])
+    # num_input = [int(x) for x in sys.argv]
+    # num_input = input("add 4 numbers from 1-9, separted by commas:").split(',')
+
+    # print(list_num)
+    # print(f"{num_input} -> {brute24(num_input)}")

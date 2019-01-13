@@ -9,3 +9,6 @@ randomly generate arithmetic operation, until found sum of 24
 ## divide and conquer 
 -- IN PROGRESS -- 
 
+how to use: 
+python core.py <number1> <number2> <number3> <number4>
+`python core.py 2 3 4 8`
