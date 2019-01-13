@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+brute24	../core.py	/^def brute24(nums):$/;"	kind:function	line:9
+core.py	../core.py	1;"	kind:file	line:1
+mydiv	../core.py	/^def mydiv(n, d):$/;"	kind:function	line:3
+op	../core.py	/^op = {sym: ch for sym, ch in zip(syms, '+-*\/')}$/;"	kind:variable	line:7
+syms	../core.py	/^syms = [operator.add, operator.sub, operator.mul, mydiv] # show operators$/;"	kind:variable	line:6
