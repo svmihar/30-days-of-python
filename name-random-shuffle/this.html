@@ -1,0 +1,722 @@
+
+<!-- saved from url=(0049)https://akademik.its.ac.id/list_nilaiperkelas.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>[SIAKAD-ITS] Daftar Nilai Per Kelas</title>
+	
+	<link href="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/pager.css" type="text/css" rel="stylesheet">
+	<link href="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/button.css" type="text/css" rel="stylesheet">
+	<link href="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/officexp.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/forpager.js"></script>
+     <script type="text/javascript" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/forinplace.js"></script>
+</head>
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="initButton(0,0);" onmousemove="checkS(event)">
+
+<!--<script type="text/javascript" src="scripts/jquery.js"></script>-->
+<!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>-->
+<script type="text/javascript" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/jquery.dimensions.js"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/jquery.positionBy.js"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/jquery.jdMenu.js"></script>
+<link rel="stylesheet" href="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/jquery.jdMenu.css" type="text/css">
+<style>
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-13px;
+   right:-5px;
+   font-size:.7em;
+   background:#FE2727;
+   color:white;
+   width:20px;height:20px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   letter-spacing:-1px;
+}
+.badge1[data-badge=""]:after, .badge1[data-badge="0"]:after  {
+	content: none;
+}
+</style>
+<div id="banner">
+	<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/header.png">
+</div>
+<form name="fMenu" id="fMenu" method="post" action="https://akademik.its.ac.id/list_nilaiperkelas.php">
+<input type="hidden" id="actmenu" name="actmenu">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr> 
+    <td valign="top" colspan="2">
+	
+	<div>
+		<ul class="jd_menu">
+		
+		
+	<li><a href="https://akademik.its.ac.id/home.php">Home</a></li>
+	<li>Data&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+		<ul>
+		<li>Biodata&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_mhs.php">Daftar Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mhscheck.php">Mahasiswa (check)</a></li>
+			</ul>
+		</li>
+		<li>Lain - lain&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_ekivalensi.php">Ekivalensi</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Proses&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/data_kur.php">Kurikulum Semester</a></li>
+		<li>Kelas&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_kelas.php">Kelas Dep. Ditawarkan</a></li>
+			<li><a href="https://akademik.its.ac.id/list_kelastpb.php">Kelas TPB Ditawarkan</a></li>
+			</ul>
+		</li>
+		<li><a href="https://akademik.its.ac.id/list_frs.php">Formulir Rencana Studi</a></li>
+		<li><a href="https://akademik.its.ac.id/list_wali.php">Perwalian Mahasiswa</a></li>
+		<li>Nilai&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/data_nilaimhs.php">Pengisian Nilai Per Mhs</a></li>
+			<li><a href="https://akademik.its.ac.id/list_evaluasi.php">Entri Nilai Evaluasi Sem</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Laporan&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+		<ul>
+		<li>Mahasiswa&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_mhsstatang.php">Status Per Angkatan</a></li>
+			</ul>
+		</li>
+		<li>Dosen&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_dosenwali.php">Anak Wali Per Dosen</a></li>
+			<li><a href="https://akademik.its.ac.id/data_ipd.php">Form IP Dosen</a></li>
+			<li><a href="https://akademik.its.ac.id/ipd_laporanjurusan.php">Laporan IPD Departemen</a></li>
+			<li><a href="https://akademik.its.ac.id/ipd_laporandosen.php">Laporan IPD Dosen</a></li>
+			</ul>
+		</li>
+		<li>Mata Kuliah&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_mk.php">Mata Kuliah</a></li>
+			<li><a href="https://akademik.its.ac.id/data_kur.php">Kurikulum</a></li>
+			<li><a href="https://akademik.its.ac.id/list_prasyarat.php">Prasyarat Mata Kuliah</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mkaturan.php">Aturan Pengambilan</a></li>
+			</ul>
+		</li>
+		<li>Jadwal&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_jadwal.php">Jadwal Perkuliahan</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mhsjadwal.php">Jadwal Kuliah Mhs</a></li>
+			<li><a href="https://akademik.its.ac.id/list_pegjadwal.php">Jadwal Mengajar Dosen</a></li>
+			</ul>
+		</li>
+		<li>Nilai&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_nilaiperkelas.php">Nilai Per Kelas</a></li>
+			<li><a href="https://akademik.its.ac.id/data_nilaipersem.php">Nilai Per Semester</a></li>
+			<li><a href="https://akademik.its.ac.id/list_ipkrank.php">Ranking IPK</a></li>
+			<li><a href="https://akademik.its.ac.id/list_ipsrank.php">Ranking IPS</a></li>
+			<li><a href="https://akademik.its.ac.id/list_nilairekap.php">Rekap Nilai Per Kelas</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>SAR&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/sar45.php">SAR 4 dan SAR 5</a></li>
+		<li><a href="https://akademik.its.ac.id/sar_rekap_semester.php">Rekap SAR Semester</a></li>
+		<li><a href="https://akademik.its.ac.id/ekivalensi_rekapitulasi_mhs.php">Rekapitulasi Ekivalensi</a></li>
+		</ul>
+	</li>
+	<li>SKPI&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/skpi_draft.php">Draft SKPI</a></li>
+		<li><a href="https://akademik.its.ac.id/skpi_monitoring.php">Monitoring</a></li>
+		<li>Panduan Pengguna&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/downloads/panduan_umum_pengisian_skpi.pdf">Panduan Umum (pdf)</a></li>
+			<li><a href="https://akademik.its.ac.id/downloads/user_manual_skpi_akad_dosen_v01.pdf">Sebagai Dosen (pdf)</a></li>
+			<li><a href="https://akademik.its.ac.id/downloads/user_manual_skpi_akad_mhs_v01.pdf">Sebagai Mahasiswa (pdf)</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>E-Kelas&nbsp;<img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/lms_list_kelas.php">E-Kelas</a></li></ul></li>		
+		
+			<li><font color="yellow">Keluar </font><img src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/down_m.gif">
+				<ul>
+					<li><a href="https://integra.its.ac.id/">Kembali ke Menu</a></li>
+					<li><a href="https://akademik.its.ac.id/sys_logout.php"><font color="yellow">Logout</font></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</td>
+</tr>
+<tr height="20" style="font-family: sans-serif, Tahoma; background-color:#ece9d8;">
+	<td nowrap="" style="padding-left:5">
+		Periode: Semester Genap 2018/2019	</td>
+  	<td align="right" nowrap="" style="padding-right:5;color:#666;padding-right:10px">
+    		<b>[n134
+] User ID: </b>131846103, Drs. I.G.Ngurah Rai Usada, M.Si &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 		<b>Hak Akses:</b> 
+	
+	
+	<select id="sRoles" name="sRoles" class="comboSmallStyle" onchange="do_changeRoles();" style="width:100px">
+	<option value="">- Pilih Hak Akses -</option>
+	<option value="2" selected="">Dosen</option>
+<option value="333">Readonly</option>
+	</select>
+
+	<select id="sFak" name="sFak" class="comboSmallStyle" onchange="do_changeFak()" style="width:100px;background-color:#33ff33">
+	<option value="">- Pilih Fakultas -</option>
+	<option value="_" style="background-color:#ffffff">UPMB</option>
+<option value="2" style="background-color:#ffcccc">FTI</option>
+<option value="6" selected="" style="background-color:#33ff33">FMKSD</option>
+<option value="9" style="background-color:#ff80ff">FBMT</option>
+<option value="10" style="background-color:#ffcc99">FVOKASI</option>
+	</select>
+
+	<select id="sJur" name="sJur" class="comboSmallStyle" onchange="do_changeUnit()" style="background-color:#99ff99">
+	<option value="">- Pilih Prodi -</option>
+	<option value="12100" selected="" style="background-color:#99ff99">12100 - 06114000 - S-1 MATEMATIKA </option>
+<option value="12201" style="background-color:#99ff99">12201 - 06115001 - S-2 MATEMATIKA </option>
+<option value="12200" style="background-color:#99ff99">12200 - 06115800 - S-2 MATEMATIKA EXCHANGE</option>
+	</select>
+
+	</td>
+	
+</tr>
+</tbody></table>
+</form>
+<script language="JavaScript">
+
+function do_changeRoles() 
+{
+	document.getElementById("sJur").value = ""; 
+	document.getElementById("actmenu").value = "changeRole"; 
+	document.getElementById("fMenu").submit();
+}
+
+function do_changeFak() 
+{
+	document.getElementById("actmenu").value = "changeFak"; 
+	document.getElementById("fMenu").submit();
+}
+
+function do_changeUnit() 
+{
+	document.getElementById("actmenu").value = "changeUnit"; 
+	document.getElementById("fMenu").submit();
+}
+</script>
+
+<div align="center">
+<form name="sipform" id="sipform" method="post" action="https://akademik.its.ac.id/list_nilaiperkelas.php">
+<div align="center" class="PageTitle">Daftar Nilai Per Kelas&nbsp;(Matematika)</div>
+<br>
+<table width="700" cellpadding="0" cellspacing="0" border="0">
+ <tbody><tr>
+  <td align="left" valign="bottom" colspan="3">
+	<table class="FilterBox">
+		<tbody><tr>
+			<td><strong>Periode</strong></td>
+			<td width="10" align="center"><strong>:</strong></td>
+			<td><select name="semesterTerm" id="semesterTerm" class="ControlStyle">
+<option></option>
+<option value="1">Gasal</option>
+<option selected="selected" value="2">Genap</option>
+<option value="3">Pendek</option>
+<option value="4">Sisipan</option>
+</select>
+ <select name="thnAjaran" id="thnAjaran" class="ControlStyle">
+<option></option>
+<option value="2019">2019</option>
+<option selected="selected" value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+</select>
+</td>
+			<td>
+				<input type="button" id="btnTampil" name="btnTampil" class="ControlStyle" value="Tampil" onclick="goRefresh();">
+			</td>
+		</tr>
+	</tbody></table>
+    <br>
+    <table cellpadding="4" cellspacing="0" class="FilterBox">
+	<tbody><tr>
+		<td><strong>Kelas Jur.</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td><select name="kelasjur" id="kelasjur" class="combo" style="width:530">
+<option value="KM4202|A|2018|12100">2018 | KM184202 | Algoritma dan Pemrograman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 4 | 37/45</option>
+<option value="KM4202|B|2018|12100">2018 | KM184202 | Algoritma dan Pemrograman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 4 | 37/45</option>
+<option value="KM4202|C|2018|12100">2018 | KM184202 | Algoritma dan Pemrograman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 4 | 37/45</option>
+<option value="KM4402|A|2018|12100">2018 | KM184402 | Aljabar 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 35/45</option>
+<option value="KM4402|B|2018|12100">2018 | KM184402 | Aljabar 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 35/45</option>
+<option value="KM4402|C|2018|12100">2018 | KM184402 | Aljabar 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 35/45</option>
+<option value="KM4702|_|2018|12100">2018 | KM184702 | Aljabar Linier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 4/20&nbsp;</option>
+<option value="KM4203|A|2018|12100">2018 | KM184203 | Aljabar Linier Elementer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 4 | 41/45</option>
+<option value="KM4203|B|2018|12100">2018 | KM184203 | Aljabar Linier Elementer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 4 | 38/45</option>
+<option value="KM4203|C|2018|12100">2018 | KM184203 | Aljabar Linier Elementer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 4 | 38/45</option>
+<option value="KM4601|A|2018|12100">2018 | KM184601 | Analisis 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 4 | 41/45</option>
+<option value="KM4601|B|2018|12100">2018 | KM184601 | Analisis 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 4 | 40/45</option>
+<option value="KM4601|C|2018|12100">2018 | KM184601 | Analisis 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 4 | 40/45</option>
+<option value="KM4826|_|2018|12100">2018 | KM184826 | Desain dan Analisis Algoritma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 6/15&nbsp;</option>
+<option value="KM4816|_|2018|12100">2018 | KM184816 | Estimasi Optimum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 15/15</option>
+<option value="KM4602|A|2018|12100">2018 | KM184602 | Fungsi Peubah Kompleks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 43/45</option>
+<option value="KM4602|B|2018|12100">2018 | KM184602 | Fungsi Peubah Kompleks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 43/45</option>
+<option value="KM4815|_|2018|12100">2018 | KM184815 | Geometri Diferensial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 4/15&nbsp;</option>
+<option value="KM4828|_|2018|12100">2018 | KM184828 | Jaringan Syaraf Tiruan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 5/15&nbsp;</option>
+<option value="KM4813|_|2018|12100">2018 | KM184813 | Kapita Selekta Aljabar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 0/15&nbsp;</option>
+<option value="KM4812|Q|2018|12100">2018 | KM184812 | Kapita Selekta Analisis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Q | 2 | 2/15&nbsp;</option>
+<option value="KM4831|_|2018|12100">2018 | KM184831 | Kapita Selekta Ilmu Komputasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 1/15&nbsp;</option>
+<option value="KM4819|_|2018|12100">2018 | KM184819 | Kapita Selekta Pemodelan, Sistem, dan Simulasi | _ | 2 | 9/15&nbsp;</option>
+<option value="KM4820|_|2018|12100">2018 | KM184820 | Kapita Selekta Stokastik, Optimasi, dan Resiko | _ | 2 | 14/15</option>
+<option value="KM4717|_|2018|12100">2018 | KM184717 | Kerja Praktik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 9/50&nbsp;</option>
+<option value="KM4830|_|2018|12100">2018 | KM184830 | Kriptografi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 1/15&nbsp;</option>
+<option value="KM4829|_|2018|12100">2018 | KM184829 | Logika Fuzzy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 5/15&nbsp;</option>
+<option value="KM4604|A|2018|12100">2018 | KM184604 | Matematika Sistem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 4 | 35/45</option>
+<option value="KM4604|B|2018|12100">2018 | KM184604 | Matematika Sistem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 4 | 33/45</option>
+<option value="KM4604|C|2018|12100">2018 | KM184604 | Matematika Sistem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 4 | 35/45</option>
+<option value="KM4822|_|2018|12100">2018 | KM184822 | Metode Elemen Hingga&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 13/15</option>
+<option value="KM4603|A|2018|12100">2018 | KM184603 | Metode Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 50/50</option>
+<option value="KM4603|B|2018|12100">2018 | KM184603 | Metode Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 48/50</option>
+<option value="KM4404|A|2018|12100">2018 | KM184404 | Metode Numerik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 37/45</option>
+<option value="KM4404|C|2018|12100">2018 | KM184404 | Metode Numerik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 36/45</option>
+<option value="KM4404|Q|2018|12100">2018 | KM184404 | Metode Numerik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Q | 3 | 36/45</option>
+<option value="KM4821|_|2018|12100">2018 | KM184821 | Metode Peramalan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 15/15</option>
+<option value="KM4731|_|2018|12100">2018 | KM184731 | Pemodelan Matematika Sistem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 17/100</option>
+<option value="KM4823|Q|2018|12100">2018 | KM184823 | Pengantar Analisis Resiko&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Q | 2 | 15/15</option>
+<option value="KM4824|Q|2018|12100">2018 | KM184824 | Pengantar Komputasi Dinamika Fluida | Q | 2 | 4/15&nbsp;</option>
+<option value="KM4817|_|2018|12100">2018 | KM184817 | Pengantar Sistem Dinamik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 11/15</option>
+<option value="KM4832|_|2018|12100">2018 | KM184832 | Pengembangan Aplikasi Web&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 12/15</option>
+<option value="KM4703|_|2018|12100">2018 | KM184703 | Penulisan Ilmiah Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 7/50&nbsp;</option>
+<option value="KM4818|_|2018|12100">2018 | KM184818 | Perancangan Eksperimen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 15/15</option>
+<option value="KM4403|A|2018|12100">2018 | KM184403 | Perangkat Lunak Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 41/50</option>
+<option value="KM4403|B|2018|12100">2018 | KM184403 | Perangkat Lunak Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 49/50</option>
+<option value="KM4403|C|2018|12100">2018 | KM184403 | Perangkat Lunak Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 45/50</option>
+<option value="KM4403|D|2018|12100">2018 | KM184403 | Perangkat Lunak Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 48/50</option>
+<option value="KM4403|Q|2018|12100">2018 | KM184403 | Perangkat Lunak Matematika&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Q | 3 | 36/50</option>
+<option value="KM4401|A|2018|12100">2018 | KM184401 | Persamaan Diferensial Biasa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 37/45</option>
+<option value="KM4401|B|2018|12100">2018 | KM184401 | Persamaan Diferensial Biasa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 37/45</option>
+<option value="KM4401|C|2018|12100">2018 | KM184401 | Persamaan Diferensial Biasa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 37/45</option>
+<option value="KM4825|_|2018|12100">2018 | KM184825 | Persamaan Diferensial Parsial Numerik | _ | 2 | 11/15</option>
+<option value="KM4827|_|2018|12100">2018 | KM184827 | Rekayasa Perangkat Lunak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 5/15&nbsp;</option>
+<option value="KM4405|A|2018|12100">2018 | KM184405 | Riset Operasi 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 48/50</option>
+<option value="KM4405|B|2018|12100">2018 | KM184405 | Riset Operasi 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 48/50</option>
+<option value="KM4405|C|2018|12100">2018 | KM184405 | Riset Operasi 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 47/50</option>
+<option value="KM4405|D|2018|12100">2018 | KM184405 | Riset Operasi 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 47/50</option>
+<option value="KM4405|Q|2018|12100" selected="">2018 | KM184405 | Riset Operasi 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Q | 3 | 33/50</option>
+<option value="KM4722|_|2018|12100">2018 | KM184722 | Sistem Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 11/15</option>
+<option value="KM4833|_|2018|12100">2018 | KM184833 | Sistem Pendukung Keputusan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 3/15&nbsp;</option>
+<option value="KM4834|_|2018|12100">2018 | KM184834 | Teknologi Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 11/15</option>
+<option value="KW4901|A|2018|12100">2018 | KW184901 | Teori Peluang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 37/45</option>
+<option value="KW4901|B|2018|12100">2018 | KW184901 | Teori Peluang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 36/45</option>
+<option value="KW4901|C|2018|12100">2018 | KW184901 | Teori Peluang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 36/45</option>
+<option value="KM4811|_|2018|12100">2018 | KM184811 | Teori Ukuran dan Integral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 5/15&nbsp;</option>
+<option value="KM4814|_|2018|12100">2018 | KM184814 | Transformasi Fourier dan Wavelet&nbsp;&nbsp;&nbsp; | _ | 2 | 5/15&nbsp;</option>
+<option value="KM4801|A|2018|12100">2018 | KM184801 | Tugas Akhir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 6 | 102/200</option>
+<option value="UG4905|—|2018|__TPB">2018 | UG184905 | Agama Buddha &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1 | 2 | 17/0&nbsp;</option>
+<option value="UG4904|—|2018|__TPB">2018 | UG184904 | Agama Hindu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1 | 2 | 39/0&nbsp;</option>
+<option value="UG4901| |2018|__TPB">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10 | 2 | 43/0&nbsp;</option>
+<option value="UG4901|¡|2018|__TPB">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11 | 2 | 42/0&nbsp;</option>
+<option value="UG4901|¢|2018|__TPB">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12 | 2 | 47/0&nbsp;</option>
+<option value="UG4901|£|2018|__TPB">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13 | 2 | 46/0&nbsp;</option>
+<option value="UG4903|—|2018|__TPB">2018 | UG184903 | Agama Katolik &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1 | 2 | 62/0&nbsp;</option>
+<option value="UG4902|—|2018|__TPB">2018 | UG184902 | Agama Kristen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1 | 2 | 42/0&nbsp;</option>
+<option value="UG4912|À|2018|__TPB">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42 | 2 | 46/47</option>
+<option value="UG4912|Á|2018|__TPB">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43 | 2 | 34/34</option>
+<option value="UG4912|Â|2018|__TPB">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 44 | 2 | 41/42</option>
+<option value="UG4912|Ç|2018|__TPB">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 49 | 2 | 23/25</option>
+<option value="UG4914|¿|2018|__TPB">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41 | 2 | 9/13&nbsp;</option>
+<option value="SF4101|Ø|2018|__TPB">2018 | SF184101 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 66 | 4 | 20/25</option>
+<option value="SF4202|±|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|²|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|³|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|´|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|µ|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|¶|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|·|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|¸|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|¹|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35 | 3 | 15/0&nbsp;</option>
+<option value="SF4202|Ü|2018|__TPB">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 70 | 3 | 15/22</option>
+<option value="UG4913|¦|2018|__TPB">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16 | 2 | 50/0&nbsp;</option>
+<option value="UG4913|§|2018|__TPB">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17 | 2 | 45/0&nbsp;</option>
+<option value="UG4913|¨|2018|__TPB">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18 | 2 | 45/0&nbsp;</option>
+<option value="UG4913|©|2018|__TPB">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19 | 2 | 44/0&nbsp;</option>
+<option value="UG4913|ª|2018|__TPB">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20 | 2 | 42/0&nbsp;</option>
+<option value="SK4101|­|2018|__TPB">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23 | 3 | 6/7&nbsp;&nbsp;</option>
+<option value="SK4101|®|2018|__TPB">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24 | 3 | 7/8&nbsp;&nbsp;</option>
+<option value="KM4101|Ø|2018|__TPB">2018 | KM184101 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 66 | 3 | 39/40</option>
+<option value="KM4201|±|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27 | 3 | 47/0&nbsp;</option>
+<option value="KM4201|²|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28 | 3 | 48/0&nbsp;</option>
+<option value="KM4201|³|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29 | 3 | 48/0&nbsp;</option>
+<option value="KM4201|´|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 | 3 | 47/0&nbsp;</option>
+<option value="KM4201|µ|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31 | 3 | 46/0&nbsp;</option>
+<option value="KM4201|¶|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32 | 3 | 41/0&nbsp;</option>
+<option value="KM4201|·|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33 | 3 | 46/0&nbsp;</option>
+<option value="KM4201|¸|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34 | 3 | 48/0&nbsp;</option>
+<option value="KM4201|¹|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35 | 3 | 45/0&nbsp;</option>
+<option value="KM4201|Ý|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 71 | 3 | 33/40</option>
+<option value="KM4201|Þ|2018|__TPB">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 72 | 3 | 34/36</option>
+<option value="UG4911|¿|2018|__TPB">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41 | 2 | 18/18</option>
+<option value="UG4916|ª|2018|__TPB">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 20 | 3 | 45/45</option>
+</select> </td>
+        <td><input type="button" class="ControlStyle" value="Pilih" onclick="goTake(&#39;jur&#39;)"></td>
+	</tr>	
+</tbody></table>
+<br>
+<table cellpadding="4" cellspacing="0" class="FilterBox">
+	<tbody><tr valign="top">
+		<td width="80"><strong>Kelas</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		
+				
+			
+		<td width="330">KM4405 | Riset Operasi 2 (Q)</td>
+				<td width="80"><strong>Kurikulum</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="170">2018</td>
+	</tr>
+	<tr valign="top">
+		<td><strong>Jurusan</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>Matematika</td>
+		<td><strong>Periode</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>Semester Genap 2018/2019</td>
+	</tr>
+    	<tr valign="top">
+		<td><strong>Pengajar</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td colspan="4">Dr. Subchan,S.Si, M.Sc.</td>
+	</tr>
+    </tbody></table>
+<br>
+    <table cellpadding="0" cellspacing="0" border="0" width="700">        
+		<tbody><tr>
+			<td align="center" width="200">
+			<a href="javascript:goRefresh()" class="button"><span class="refresh">
+			Refresh</span></a></td>
+			<td align="right" valign="middle">
+			<img title="first" id="firstButton" onclick="goFirst(-1)" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/first.gif" style="cursor:pointer;">
+			<img title="previous" id="prevButton" onclick="goPrev(-1)" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/prev.gif" style="cursor:pointer;">
+			<img title="next" id="nextButton" onclick="goNext(-1,-1)" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/next.gif" style="cursor:pointer;">
+			<img title="last" id="lastButton" onclick="goLast(-1,-1)" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/last.gif" style="cursor:pointer;">
+			</td>
+		</tr>
+	</tbody></table>	
+	</td>
+	</tr>  
+    </tbody></table>
+	<table width="700" cellspacing="0" cellpadding="4" class="GridStyle">
+   	<tbody><tr height="20">
+				<td nowrap="" width="200" align="center" class="SubHeaderBGAlt" style="cursor:pointer;" onclick="PopupMenu(&#39;popPaging&#39;,&#39;MA_NRP_Baru:C&#39;);">NRP </td>
+				<td nowrap="" width="300" align="center" class="SubHeaderBGAlt" style="cursor:pointer;" onclick="PopupMenu(&#39;popPaging&#39;,&#39;MA_NamaLengkap:C&#39;);">Nama Mahasiswa </td>
+				<td nowrap="" width="150" align="center" class="SubHeaderBGAlt" style="cursor:pointer;" onclick="PopupMenu(&#39;popPaging&#39;,&#39;KU_NilaiHuruf:C&#39;);">Nilai </td>
+			
+	</tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111440000092</td> 
+        <td>YULIANITA<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111440000107</td> 
+        <td>MUHAMAD FARRAS HANINDITO RUKMANTORO<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111540000025</td> 
+        <td>Atika Marasabessy<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111540000034</td> 
+        <td>Indah Rahmadhania<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111540000087</td> 
+        <td>AHMAD MUHAJIR<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111540000115</td> 
+        <td>SUMIHAR CHRISTIAN N S<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111640000001</td> 
+        <td>YOHANES A CRUX GOSAL<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111640000003</td> 
+        <td>MOHAMAD ILHAM DWI FIRMANSYAH<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111640000010</td> 
+        <td>YUDA HENDRIAWAN BUDI HANDOKO<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111640000013</td> 
+        <td>SHAFIRA HERLINAWATI<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111640000026</td> 
+        <td>HENGKY KURNIAWAN<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111640000028</td> 
+        <td>SOVIA PRABANINGTYAS<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111640000031</td> 
+        <td>FERISA TRI PUTRI PRESTASI<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111640000058</td> 
+        <td>NUR LAILI ASTI PRAMESTI<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111640000067</td> 
+        <td>RENJIRO OWEN<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111640000088</td> 
+        <td>RIF`AN AMROZI<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111640000091</td> 
+        <td>SOMA USHIO<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111640000112</td> 
+        <td>ZUHAIR<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000005</td> 
+        <td>FRANSISCA DIVA AMADEA<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000007</td> 
+        <td>MIRDHA SUCI ANANDA<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000025</td> 
+        <td>JULINAR<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000037</td> 
+        <td>MUHAMMAD NANDA SETIAWAN<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000049</td> 
+        <td>ALDI EKA WAHYU WIDIANTO<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000051</td> 
+        <td>ARIQOH FAUZIYAH IRBAH<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000057</td> 
+        <td>GALANG REFORMANTOKO<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000059</td> 
+        <td>RIO TINTO HERLAMBANG<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000075</td> 
+        <td>MUHAMMAD JEFRI FRANSISKA<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000092</td> 
+        <td>EDWIN RISBOWO<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000097</td> 
+        <td>ALLIF ALFIYAN<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000099</td> 
+        <td>MOCHAMAD FARHAN MARGA KUSUMA<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000102</td> 
+        <td>ANGGA KURNIAWAN<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG0"> 
+        <td align="center">06111740000104</td> 
+        <td>FARHAN HAFIZH<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+			<tr class="HighlightBG1"> 
+        <td align="center">06111740000105</td> 
+        <td>ANDI AQIL AMANULHAQ<br>«<strong>BLM MENGISI KUESIONER</strong>»</td>
+        <td align="center">*</td>
+        </tr>
+		<tr>
+		<td colspan="3">			
+		</td>
+	</tr>
+</tbody></table>
+
+
+<div id="popFilter" name="popFilter" class="FilterDialog" onblur="this.style.display=&#39;none&#39;"> 
+	Filter Criteria <br>
+	<input class="FilterText" type="text" name="txtFilter" id="txtFilter" size="20" onkeydown="return doFilter(event);" onblur="document.getElementById(&#39;popFilter&#39;).style.display=&#39;none&#39;">
+</div>
+
+<div id="popPaging" class="menubar" style="position:absolute; display:none; top:0px; left:0px;z-index:10000;" onmouseover="javascript:overpopupmenu=true;" onmouseout="javascript:overpopupmenu=false;">
+<table width="100" class="menu-body">
+	<tbody><tr class="menu-button" onmousemove="this.className = &#39;hover&#39;;" onmouseout="this.className = &#39;&#39;;">
+        <td onclick="goSort(&#39;asc&#39;);"> <img align="absmiddle" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/sortascending.gif"> Sort Asc</td>
+  	</tr>
+	<tr class="menu-button" onmousemove="this.className = &#39;hover&#39;;" onmouseout="this.className = &#39;&#39;;">       
+		<td onclick="goSort(&#39;desc&#39;);"><img align="absmiddle" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/sortdescending.gif"> Sort Desc</td>
+  	</tr>
+   	<tr>
+		<td class="separator"><div class="separator-line"></div></td>
+	</tr>
+	<tr class="menu-button" onmousemove="this.className = &#39;hover&#39;;" onmouseout="this.className = &#39;&#39;;">
+		<td onclick="goFilter(true);"><img align="absmiddle" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/addfilter.gif"> Filter ...</td>
+	</tr>
+	<tr class="menu-button" onmousemove="this.className = &#39;hover&#39;;" onmouseout="this.className = &#39;&#39;;">
+		<td onclick="goFilter(false);"><img align="absmiddle" src="./[SIAKAD-ITS] Daftar Nilai Per Kelas_files/removefilter.gif"> Remove Filter</td>
+	</tr>
+</tbody></table>
+</div>
+
+
+	<input type="hidden" name="key" id="key">
+	<input type="hidden" name="fmenu" id="fmenu">
+    <input type="hidden" name="page" id="page" value="-1">
+	<input type="hidden" name="sort" id="sort" value="">
+	<input type="hidden" name="filter" id="filter" value="">
+	<input type="hidden" name="pkey" id="pkey">
+	<input type="hidden" name="act" id="act">
+</form>
+</div>
+
+
+<script type="text/javascript">
+
+var filedetail = "";
+
+var mouseX = 0; 
+var mouseY = 0;
+
+var ie  = document.all; 
+var ns6 = document.getElementById&&!document.all;
+
+var isMenuOpened  = false ;
+var menuSelObj = null ;
+var overpopupmenu = false;
+var gParam;
+
+var posx = 0; 
+var posy = 0;
+
+var newWin = null;
+
+function popUp(strURL, strType, strHeight, strWidth) {
+	if (newWin != null && !newWin.closed)
+		newWin.close();
+	
+	var strOptions = "";
+	
+	if (strType == "console")
+		strOptions = "resizable,height="+strHeight+",width="+strWidth;
+	if (strType == "fixed")
+		strOptions="status,height="+strHeight+",width="+strWidth;
+	if (strType == "elastic")
+		strOptions="toolbar,menubar,scrollbars,"+"resizable,location,height="+strHeight+",width="+strWidth;
+	
+	newWin = window.open(strURL, 'newWin', strOptions);
+	newWin.focus();
+}
+
+
+function ifEnterSearch(e) {
+	var ev = (window.event) ? window.event : e;
+	var key = (ev.keyCode) ? ev.keyCode : ev.which;
+
+	if (key == 13)
+		goSearch();
+}
+
+function goSearch() {
+	document.getElementById("page").value = 1;
+	document.getElementById("act").value = 'cari';
+	goSubmit();
+}
+
+function goTake(tipe) {
+	var elem = document.getElementById("kelas"+tipe);
+	if(elem) {
+		var val = elem.value;
+		document.getElementById("act").value = "pilih";
+		document.getElementById("key").value = val;
+		goSubmit();
+	}
+}
+</script>
+
+
+</body></html>
