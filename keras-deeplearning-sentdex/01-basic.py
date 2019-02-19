@@ -36,7 +36,7 @@ model.save_weights('mnist_model_reader.model')
 new_model = tf.keras.models.load_model('mnist_model_reader.model')
 predictions = new_model.predict([x_test])
 
-print(predictions)
+print(predictions)  
 
 # import matplotlib.pyplot as plt 
 
