@@ -25,6 +25,6 @@ model.add(Dense(64))
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
-model.compile(loss="binary_crossentropy",optimizer='adam',metrics=['accuracy']) #change loss to categorical 
+model.compile(loss="binary_crossentropy",optimizer='adam',metrics=['accuracy']) #change loss to categorical
 model.fit(X,y,batch_size=32, validation_split=0.15, epochs=10) #calculate 32 batches at once, depends on the size of the data
 
