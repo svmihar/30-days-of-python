@@ -1,0 +1,38 @@
+url = 'https://docs.google.com/forms/d/e/1FAIpQLSc39V6O8bcyNPOG98egLOJgDxcIyP57Pkjoy6AQv6ivElASZw/viewform'
+
+from selenium import webdriver
+import time, random
+import pandas as pd
+
+driver = webdriver.Chrome()
+
+# nama = ['FITRA RAHMADIANSYAH', 'MANDA ALI WIBOWO', 'ALDI TRI YATNO', 'RANDY LUKITO SUSANTO', 'BRILLIANTO PUTRA KUSUMADJAJA', 'NISRINA NUR AINI ULFAH', 'MUHAMMAD IKHSAN', 'DITRA AHMAD NUGRAHA', 'ERRY SATRIO WIDYANTO', 'RONALD HARIANTO', 'NIDIAR NURSUKMA ADI', 'RAY JULIO PANGOW', 'MUHAMMAD BAGAS AJI NUGROHO', 'ALIF RISHANI', 'MUHAMMAD RIZKI AKBAR', 'MUHAMMAD TAREQ AZIZ', 'MUHAMMAD LAZUARDI HEFNI', 'ANDI SATRIYO DARMAWAN', 'IRFANDA ODYTIA', 'RINANDA AULIA RAFI', 'FARHAN HERDIANSYAH', 'M. ZULHAFIZH', 'MUTIA RIANTY', 'SEKAR SATITI', 'HANS STEVANUS SANTOSO', 'MUHAMMAD BAHRUDDIN M', 'OKTA RAHMA DIENANDA', 'MUHAMMAD NAUVAL IMADUDDIN', 'NI LUH PUTU PUJYANTI WIDHIASTUTI', 'MOCHAMMAD ALIF RIZALDI', 'RAHMAN AGAM NUGROHO', 'MAUDY RAMADHANI PUTRI', 'HANA AULIA DIAH R', 'DWITONO PERMANA SUSANTO', 'ANINDITO WISNUNTORO KUNCOROJATI', 'MUHAMMAD RIFQI RUSYDANI', 'FARIZ HAMBALI', 'AHMAD ATHOILLAH', 'Aulia Muhari', 'Yosua Armand Sunario', 'Husna Annisa Rahman', 'Lita Herdianingrum', 'Savita Ika Sari', 'Navyra Putri Penika', 'Nur Annisa Kusuma Dewi', 'Yulia Kurnia Ratri', 'Tri Putra Kurnia Ramadhan', 'Ahmed Raecky Baihaqy', 'Fadhilla Noor Halimah', 'Arnold Hasian', 'Renny Fatmawati', 'Citra Wulandari', 'Muhammad Hadziqul Ikhwan Pratama', 'Norhayati', 'Verste Marega Saraslady Ardhia Pramesti', 'Aji Wirasakti Setyawan', 'Dzaky Wibowo', 'Arief Ramadhana', 'Safira Adelina', 'Susmitha Canny', 'M. Miqdad Shiddiq Afif', 'Kannida Puspa Shubhi', 'Aulia Harumi Baharisa Tya', 'Mega Savierra Tjandra', 'Irza Rachmadiar Adetio', 'Dhea Elveta', 'Siti Qomariyah', 'Vony Adelia Prasetyaningtias', 'Siti Hanifah Sadiah', 'Azimatul Khusniah', 'Bagos Setiawan', 'Muhammad Arif Setiadi', 'Evangelica Solagratia Swandevi', 'Widya Cahyani Putri', 'Nisa Ul`ula Nur Ramadhoni', 'Meilia Dwi Suryani', 'Vina Nur Islami', 'Salsabila Faradina Fairuz Viviansyah', 'Prizka Prarayendra', 'Aulia Sukma Ayu Narendra', 'Della Deswiana Pratama', 'Dinda Kurnia Rifta', 'Monica Pratiwi', 'Muhammad Yafi Satryatama', 'Veronica Cholifatul Maghfiroh', 'Margaretha Calusa Diah Paramudita', 'Rifqi Nur Mukhammad', 'M. Abdan Syakura', 'Catur Setianing Rum', 'Dody Al Fayed', 'Erika Ayu Putri Karina', 'Pramudya Wardani', 'Alfia Khairani Simanjuntak', 'Nabilah Putri Khansa', 'Rizki Kurniawati Munawaroh', 'Ardita Tiara Nugraha', 'Farrel Naufal', 'Arindra Mutiara Rulianti', 'Nur Aeni Elmi', 'Vivy Astridtasari', 'Meilina Puspita Sari', 'Alexander Billy Widjaja', 'Amalia Mahmudah', 'Mohammad Hafish Arnanta', 'Laras Swandayani', 'ALYA NUR SHABRINA', 'NAZEILA IVANA AMARALLIS', 'AMMAR', 'TIARA SARI LISTYANITA', 'ERIFANDY PAWELLANGI', 'ASMA`UL KHUSNA', 'MADE GILANG SEDAYU BAGASKARA S.', 'DESI NATALIA', 'ANISA RENALDA MARDANI', 'PRIMANINGTYAS KUSANGGITA', 'R. PANJI RACHMANDONO', 'DIAJENG ANJARSARI RAHMADANI', 'WISNU ALVINDA ISKANDAR', 'ILHAM ALI AKBAR', 'SHAFIYAH SALSABILA', 'ARDIYAN ABI WINATA', 'CALVIN PRAYANDI', 'ADELIA VISTADEA RAHMAN', 'GHOZI AZMY RAKHMAN', 'ISNANTO KHOMARUDIN', 'FUAD KHANAND', 'RIZKY ANANDA', 'EDRIAN HAMIDJAYA', 'LORENTINUS ANGRAY', 'EVITA NURIYA ROSADA', 'NEISYA NURUL HASANAH', 'TAUFAN ANDHIKA NUGRAHA', 'AUFAR FIKRI DIMYATI', 'I GEDE AREI BANYUPRAMESTA', 'RIZKY INDAH PERMATASARI', 'REGITA ASTRI', 'INDAH PERMATASARI', 'CHRISTO VALENTINO HANAFI', 'AYU SHEILLA RACHMAWATI', 'FIRDA NUR RIZKIANI', 'RAHMAT HAMIDIN SHALEH', 'ROYNALDO PETRUS', 'MUHAMMAD IQBAL P. A.', 'RAHMADIANI', 'YAUMA DWI FIANI MARTIN', 'NAUVAL RIFQY', 'PANTOKI ILHAM', 'MUHAMMAD YUDA KHABIBULLOH', 'ACH NAFILA ROZIE', 'I GUSTI AYU PUTRI PRIYANKA', 'ILHAM AKBAR', 'FATIMA DARA PRAMESTHI', 'ROSSIE AUGUSTINE', 'LULU AULIYA ANDRIAN', 'VANESHA ARINTA DAME', 'FEMILLA NUR RIVANTIA', 'FAWWAZ CHAIRON AZTA', 'ADOLFT AFWARI RAHMAN', 'MAYLVIN ANDRIAN ERIDANI', 'ZAYDAN DARMAWAN PUTRA', 'FASYA HANA ZAHDA', 'AISYAH HALIMAH', 'FATMA CAHYANI', 'MUHAMAD ABDUL MUKLIS', 'NUR FITRIA NINGSIH', 'DITHA HUDAIFA Y SYAFRUDDIN', 'HILMA FARAH', 'RAFIF NOVA RIANTAMA', 'NADA FARAH DIBA', 'EKA VERA DEWI', 'KOMANG NICKITA SARI', 'TYAS WAHYU PRAMESTI', 'ALFIAN', 'AISYAH PONTIANA', 'DEDI NUGRAHA', 'FURQON ADI PREMONO', 'REZA AULIA AKBAR', 'LAYLA KURNIASARI PUTRI', 'NANDA DWI PRISTIWANTI', 'KALAM AL JIBRAN', 'FADHILA PUTRA', 'RAHMADINI KHOIRUNNISA', 'MUHAMMAD AFIF PURWANDI', 'ZULHAM ALDINO', 'NIKEN BUDI ASTUTI', 'NUR MUHAMMAD FARHAN', 'VICO ILHAM SYAHPUTRA', 'BAGAS ABDURRAHMAN RAMADHAN', 'MUHAMMAD DIFA AZMII', 'NILAMSARI', 'IDA BAGUS NGURAH MANIK PARASARA', 'DEFA IHSAN RAMADHAN', 'FARICHA KHAIRUNNAFI', 'JIHAN FIRKA MAHIRAH', 'MUTHIA RAHMASARI', 'MUTAMMIMA LUCKY FAULITA', 'FAROUK GIFFARI', 'PUTRI RIDHAYANTI', 'GUSTIN MAULANA', 'CINTA ADINIA ISLAMI FATIKHA SARI', 'ODILIA INDIRA SARASWATI', 'SATRIO SAMUDRO AJI BASUKI', 'ELGA FADHILA PUTRA', 'DANIEL BAYU K', 'DENTY ROSARI ASTAMIAR', 'JUWITA RISMAWATI', 'REKHA NUR FADILA', 'MUHAMMAD IQBAL BAIHAQI', 'ANISA RAHMAWATI', 'NISRINA HASNA RITONGA', 'RIFDAH PERMATA GEMILANG', 'AMELIA ISNIE BAHRIA', 'BETALIA FEBIANITA', 'KARTIKA DWI YUNIAVITA RAHMAWATI', 'AILSA AMANDA RATNA KHAIRUNNISA', 'RAIHAN BAGUS SAKTI AJI', 'RAFLY DWI PRIYONO', 'RAKHMA OETARI', 'MARIA ULFA PERMATA']
+df = pd.read_excel('semua.xlsx')
+nama = df['Nama'].values
+pancasila = 'Bahwa sesungguhnya kemerdekaan itu ialah hak segala bangsa dan oleh sebab itu, maka penjajahan diatas dunia harus dihapuskan karena tidak sesuai dengan perikemanusiaan dan perikeadilan. Dan perjuangan pergerakan kemerdekaan Indonesia telah sampailah kepada saat yang berbahagia dengan selamat sentosa mengantarkan rakyat Indonesia ke depan pintu gerbang kemerdekaan negara Indonesia, yang merdeka, bersatu, berdaulat, adil dan makmur. Atas berkat rahmat Allah Yang Maha Kuasa dan dengan didorongkan oleh keinginan luhur, supaya berkehidupan kebangsaan yang bebas, maka rakyat Indonesia menyatakan dengan ini kemerdekaannya. Kemudian daripada itu untuk membentuk suatu pemerintah negara Indonesia yang melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, maka disusunlah kemerdekaan kebangsaan Indonesia itu dalam suatu Undang-Undang Dasar negara Indonesia, yang terbentuk dalam suatu susunan negara Republik Indonesia yang berkedaulatan rakyat dengan berdasar kepadak etuhanan Yang Maha Esa, kemanusiaan yang adil dan beradab, persatuan Indonesia, dan kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan, serta dengan mewujudkan suatu keadilan sosial bagi seluruh rakyat Indonesia.'
+
+pancasila = pancasila.split(' ')
+print(pancasila)
+
+
+def lesgo(): 
+    driver.get(url)
+    nama_random = nama[random.randint(0,len(nama))]
+    print('print: ', nama_random)
+    kata_random = pancasila[random.randint(0,len(pancasila))]
+
+    driver.find_element_by_xpath('//*[@id="mG61Hd"]/div/div[2]/div[2]/div[1]/div/div[2]/div/div[1]/div/div[1]/input').send_keys(nama_random)
+    driver.find_element_by_xpath('//*[@id="mG61Hd"]/div/div[2]/div[2]/div[2]/div/div[2]/div/content/div/div[1]/label/div/div[1]/div[3]/div').click()
+    driver.find_element_by_xpath('//*[@id="mG61Hd"]/div/div[2]/div[2]/div[3]/div/div[2]/div[1]/div[2]/textarea').send_keys(kata_random)
+    driver.find_element_by_xpath('//*[@id="mG61Hd"]/div/div[2]/div[3]/div[1]/div/div/div[2]').click()
+    driver.delete_all_cookies()
+
+i=0
+while True: 
+    try: 
+        lesgo()
+    except:
+        pass
+    i+=1
+    print(i)
+driver.quit()
