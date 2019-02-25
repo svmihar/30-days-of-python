@@ -35,9 +35,7 @@ print(A.dot(B))
 
 
 
-print('='*60)
-print('LEARNING RATE')
-print('='*60)
+pisahkan('LEARNING RATE')
 # Too large = overshoot, too small = won't get minimum point 
 df = pd.read_csv('datasets/banknotes.csv')
 print(df.columns) 
@@ -46,9 +44,7 @@ print(df['class'].value_counts())
 # sns.pairplot(df,hue='class')
 # plt.show()
 
-print('='*60)
-print('BASELINE MODEL FOR BANKNOTES FROM LEARNING RATE')
-print('='*60)
+pisahkan('BASELINE MODEL FOR BANKNOTES FROM LEARNING RATE')
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import scale
@@ -56,7 +52,7 @@ from sklearn.preprocessing import scale
 X = scale(df.drop('class',axis=1).values)
 y = df['class'].values
 
-model = RandomForestClassifier()
+model = RandomForestClassifier(n_estimators=10)
 check = cross_val_score(model,X,y)
 print(check)
 
@@ -68,8 +64,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation 
 from keras.optimizers import SGD 
 
-K.clear_session() #optional aja sih 
-
 model = Sequential() 
 model.add(Dense(1,input_shape=(4,),activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer='sgd',metrics=['accuracy'])
@@ -77,8 +71,12 @@ history = model.fit(X_train, y_train)
 result = model.evaluate(X_test,y_test)
 
 historydf = pd.DataFrame(history.history, index=history.epoch)
-historydf.plot(ylim=(0,1))
-plt.title("Test accuracy: {:3.1f} % ".format(result[0]*100),fontsize=15)
+plt.plot(history.history['acc'])
+plt.plot(history.history['val_acc'])
+plt.xlabel('epoch')
+plt.legend(['train','test'],loc='best')
+plt.show()
+plt.title("Test accuracy: {:3.1f} % ".format(result[1]*100),fontsize=15)
 plt.show()
 
 pisahkan('Learning rates')#having trouble with lines not showing. 
@@ -95,8 +93,9 @@ for lr in learning_rates:
     dflist.append(pd.DataFrame(h.history, index=h.epoch))
 historydf = pd.concat(dflist,axis=1)
 metrics_reported = dflist[0].columns
-idx = pd.MultiIndex.from_product([learning_rates,metrics_reported],names=['leanring_rate','metric'])
+idx = pd.MultiIndex.from_product([learning_rates,metrics_reported],names=['learning_rate','metric'])
 historydf.columns = idx
+print(historydf)
 ax = plt.subplot(211)
 historydf.xs('loss',axis=1,level='metric').plot(ylim=(0,1), ax=ax)
 plt.title('Loss')
