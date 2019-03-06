@@ -72,7 +72,6 @@ result = model.evaluate(X_test,y_test)
 
 historydf = pd.DataFrame(history.history, index=history.epoch)
 plt.plot(history.history['acc'])
-plt.plot(history.history['val_acc'])
 plt.xlabel('epoch')
 plt.legend(['train','test'],loc='best')
 plt.show()
