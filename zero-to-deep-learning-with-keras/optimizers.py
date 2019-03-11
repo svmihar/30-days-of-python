@@ -91,3 +91,17 @@ plt.title("Accuracy")
 plt.xlabel("Epochs")
 plt.tight_layout()
 plt.show()
+
+pisahkan('Inner layer representation')
+
+K.clear_session()
+model = Sequential()
+model.add(Dense(2, input_shape=(4,), activation='relu'))
+model.add(Dense(1, activation='sigmoid'))
+model.compile(loss='binary_crossentropy', optimizer=RMSprop(lr=0.01),metrics=['accuracy'])
+
+h = model.fit(X_train, y_train, batch_size=16, epochs=20, verbose=1, validation_split=0.3)
+result = model.evaluate(X_test,y_test)
+print(result)
+print(model.summary())
+print(model.layers)
