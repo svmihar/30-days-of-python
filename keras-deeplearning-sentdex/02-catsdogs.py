@@ -1,36 +1,12 @@
 import numpy as np 
 import pandas as pd
 import matplotlib.pyplot as plt 
-<<<<<<< HEAD
 import os 
 # import cv2
-=======
-import os, cv2, random
-from tqdm import tqdm 
->>>>>>> 19b909c9ab96aa753e5850143afc2e6faab87390
 from keras.preprocessing.image import ImageDataGenerator, load_img
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
-import random
-
-# CATEGORIES = ['Dog','Cat']
-# DATADIR='dataset/PetImages'
-# for category in CATEGORIES: 
-#     path = os.path.join(DATADIR, category) #path to cats or dogs 
-#     for img in os.listdir(path):
-#         img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)
-#         plt.imshow(img_array,cmap='gray')
-#         plt.show()
-#         break 
-#     break 
-
-import os 
-print(os.listdir("dataset/"))
-CATEGORIES = ['Dog','Cat']
-DATADIR = "dataset/"
-=======
 
 # CATEGORIES = ['Dog','Cat']
 # DATADIR='dataset/PetImages'
@@ -46,7 +22,6 @@ DATADIR = "dataset/"
 import os 
 CATEGORIES = ['Dog','Cat']
 DATADIR = r"C:\\Users\\PEMODELAN-01\\Downloads\\tian\\30-days-of-python\\keras-deeplearning-sentdex\\dataset\\PetImages\\"
->>>>>>> 19b909c9ab96aa753e5850143afc2e6faab87390
 
 FAST_RUN = False
 IMAGE_WIDTH = 128
