@@ -23,4 +23,4 @@ print("2) Using K Neighbors Classifier Prediction is " + str(knn.predict(P)))
 #{using RandomForest Classifier}
 rfor = RandomForestClassifier()
 rfor.fit(X,Y)
-print("4) Using RandomForestClassifier Prediction is " + str(rfor.predict(P)) +"\n")
+print("3) Using RandomForestClassifier Prediction is " + str(rfor.predict(P)) +"\n")
