@@ -59,6 +59,31 @@ def preprocess_df(df):
     random.shuffle(sequential_data)
     
 
+    buys = []
+    sells = []
+    for seq, target in sequential_data: 
+        if target == 0: 
+            sells.append([seq, target])
+        elif target ==0: 
+            buys.append([seq, target])
+    random.shuffle(sells)
+    random.shuffle(buys)
+    lower = min(len(buys), len(sells))
+    
+    buys = buys[:lower]
+    sells = sells[:lower]
+    sequential_data = buys + sells
+
+    random.shuffle(sequential_data)  #acak antara buys dan sells nya biar bikin modelnya tidak bingung dengan klasifikasinya.
+
+    X = []
+    y = []
+    for seq, target in sequential_data: 
+        X.append(seq)
+        y.append(target)
+    
+    return np.array(X), y
+
 main_df['future'] = main_df[f'{RATIO_TO_PREDICT}_close'].shift(-FUTURE_PERIOD_PREDICT) # shift semacam menggeser tergantung axis dan berapa step
 main_df['target'] = list(map(classify, main_df[f'{RATIO_TO_PREDICT}_close'],main_df['future']))
 
@@ -71,8 +96,9 @@ print(last_5_percent)
 validation_main_df = main_df[(main_df.index >= last_5_percent)]
 main_df = main_df[(main_df.index < last_5_percent)]
 
-preprocess_df(main_df)
+X_train, y_train = preprocess_df(main_df)
+X_test, y_test = preprocess_df(validation_main_df)
 
-# X_train, y_train = preprocess_df(main_df)
-# X_test, y_test = preprocess_df(validation_main_df)
-
+print(f'train data: {len(X_train)} validation: {len(X_test)}')
+print(f"Don't buys: {y_train.count(0)}, buys: {y_train.count(1)}")
+print(f"Validation don't buys: {y_test.count(0)}, buys: {y_test.count(1)}")
