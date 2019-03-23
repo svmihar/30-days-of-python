@@ -1,4 +1,5 @@
 import pandas as pd 
+from sklearn import preprocessing
 
 df = pd.read_csv('dataset/LTC-USD.csv', names = ['time', 'low', 'high', 'open' ,'close', 'volume'], index_col=0)
 
@@ -36,7 +37,28 @@ def classify(current, future):
     else: 
         return 0 
 
+        
+def preprocess_df(df): 
+    df = df.drop('future',1)
+    for col in df.columns: 
+        if col != 'target': 
+            df[col] = df[col].pct_change()
+            df.dropna(inplace=True)
+            df[col]= preprocessing.scale(df[col].values)
+
+            
 main_df['future'] = main_df[f'{RATIO_TO_PREDICT}_close'].shift(-FUTURE_PERIOD_PREDICT) # shift semacam menggeser tergantung axis dan berapa step
 main_df['target'] = list(map(classify, main_df[f'{RATIO_TO_PREDICT}_close'],main_df['future']))
 
 print(main_df.head())
+
+times = sorted(main_df.index.values)
+last_5_percent= times[-int(0.05*len(times))]
+print(last_5_percent)
+
+validation_main_df = main_df[(main_df.index >= last_5_percent)]
+main_df = main_df[(main_df.index < last_5_percent)]
+
+# X_train, y_train = preprocess_df(main_df)
+# X_test, y_test = preprocess_df(validation_main_df)
+
