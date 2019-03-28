@@ -19,8 +19,9 @@ from . import views
 
 urlpatterns = [
     path('xianyink/', admin.site.urls),
-    path('', views.home),
+    path('', views.home, ),
     path('kontol', views.kontol),
-    path('template', views.template)
-
+    path('meh/', views.meh, name='ndasmu'), 
+    path('countshit/', views.count, name='count'),
+    path('about/', views.about, name='about'),
 ]
