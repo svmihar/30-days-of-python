@@ -84,12 +84,45 @@
 - choose any database you want, tapi pake models.Model sebagai argumen untuk menunjuk database nya.  
 - untuk liat setiap field yang bisa di edit di database bisa di lihat [di model reference documentation nya django](https://docs.djangoproject.com/en/2.1/topics/db/models/)
 - tiap file yang di save di model harus dalam satu central folder buat medianya. biasanya dinamakan `media/`, atau `images/`
-
+- jangan lupa ditambah di settings.py di folder projectnya
+- tambah media di settings.py buat ngeset folder dimana gambar/asset tertentu akan di save
+    - untuk setiap gambar pasti pake PILLOW buat manajemen file nya
+        - manajemen yang dimaksud adalah tipe filenya. 
 
 ### django migrate
 - buat update modelsnya
 - auth, session, sudah ada di cache, jadi harus di update dalam modelsnya 
 - MIGRATION = SETUP DATABASE
+- setiap update pada directory, settings.py, harus makemigrations biar ke update `class Migration` nya
+
+### django admin 
+- jangan lupa buat username dan password 
+    - `python manage.py createsuperuser` 
+- harus migrate dulu biar keupdate modelnya, dan biar ada nama dulu tablenya bukan ada tablenya baru ada namanya. 
+    - `python manage.py migrate` 
+- buat ngedit 'database' yang ada di admin panel harus edit dulu `admin.py` nya di tiap app-nya
+        ```python 
+        from django.contrib import admin
+
+        # Register your models here.
+        from .models import Job 
+
+        admin.site.register(Job)
+        ```
+- dengan django admin ini gak perlu nyentuh database secara langsung tapi bisa bikin script sendiri buat ngedit tablenya di database. ***this is gold***
+- buat images atau asset yang ada di dalam database harus ditambah dalam `urlpattern` nya dengan: 
+    ```python 
+    from django.conf import settings
+    from django.conf.urls.static import static
+    urlpatterns = [] + static(tambah image url yang ada di settings.py, document_root=media_root)
+    ```
+
+### database: postgresql 
+- connect: 
+    - `sudo su - postgres`
+    - `psql` 
+- running server: 
+    - jangan lupa install `pip install psycopg2` 
 
 ### cheatsheet: 
 - django-admin startproject **projectname**
