@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render, render_to_response
-from django.template.context import RequestContext
+# from django.template.context import RequestContext
 from collections import Counter
 
 def home(request):
