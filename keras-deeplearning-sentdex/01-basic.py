@@ -22,7 +22,7 @@ model.compile(optimizer='adam',
 #loss function so know when to stop, optimizer always minimize loss 
 
 #train model
-model.fit(x_train, y_train, epochs=2005)
+model.fit(x_train, y_train, epochs=2)
 
 #to prevent OVERFITTING, we need evaluate the val_loss. 
 # Learn pattenrs, not memorizing
