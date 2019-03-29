@@ -59,6 +59,38 @@
     - di html nya jangan lupa di kasih `{% url 'NAMA_NAME'%}` buat hyperlink/action referrer nya
 - using parameter dengan request dari def nya 
 
+
+## personal portofolio 
+- virtualenv *lebih enak pake conda env. jadi i don't really follow this*
+  - jangan taro di dalem project folder
+- databases/postgress and models
+- admin interface
+- work with static files
+- allowing users to upload files 
+- using bootstrap 
+
+### django apps
+- you can create apps inside a django projects
+  - semacam mini sections, yang punya views nya sendiri...
+- `python manage.py startapp nama_appnya` 
+
+### django models
+- you can dynamically edit the "content" of the jobs with database
+  - jadi berubah sesuai dengan data yang ada di database nya. 
+    ```python: 
+    class Job(models.Model):
+    pass
+    ```
+- choose any database you want, tapi pake models.Model sebagai argumen untuk menunjuk database nya.  
+- untuk liat setiap field yang bisa di edit di database bisa di lihat [di model reference documentation nya django](https://docs.djangoproject.com/en/2.1/topics/db/models/)
+- tiap file yang di save di model harus dalam satu central folder buat medianya. biasanya dinamakan `media/`, atau `images/`
+
+
+### django migrate
+- buat update modelsnya
+- auth, session, sudah ada di cache, jadi harus di update dalam modelsnya 
+- MIGRATION = SETUP DATABASE
+
 ### cheatsheet: 
 - django-admin startproject **projectname**
 - python manage.py startapp **appanme**
