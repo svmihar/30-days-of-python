@@ -1,0 +1,22 @@
+<h1>
+    COUNT
+</h1>
+
+<a href="{%url 'ndasmu'%}">New Count</a>
+
+<h3>
+    there are {{length}} words in your text
+</h3>
+
+fulltext: 
+{{fulltext}}
+
+<br>
+<br>
+<br>
+<br>
+
+mostcommon: <br>
+{% for word,frequency in common%}
+{{word}} : {{frequency}} <br>
+{% endfor %}
