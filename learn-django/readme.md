@@ -130,7 +130,17 @@
 - running server: 
     - jangan lupa install `pip install psycopg2` 
 - ini agak ribet buat setupnya sepertinya harus terpisah buat catetannya. 
+- buat make isi database tinggal import: 
+  - `from .models import {nama_app}`
+- import nya akan mengimport database model dari models.py 
 
+### handling static asset: image, css, js, etc
+- bisa pake cdn (agak lama)
+- locally stored 
+
+### INCLUDE URLCONF (semacam backlink)
+1. Import the include() function: from django.urls import include, path
+2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 
 ### cheatsheet: 
 - django-admin startproject **projectname**
