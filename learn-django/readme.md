@@ -166,6 +166,32 @@
 ```
 to prevent malicious attack (?)
 
+
+### GET and POST
+- get: minta info pada server 
+- post: ngirim info pada server
+
+###  django handling sign in, sign up
+```python 
+from django.contrib.auth.models import User
+from django.contrib import auth
+```
+- buat nyari atribut di dalam database bisa ambil dari `User.objects.get(apa yang dicari)
+
+
+### django custom error handling
+```python 
+def signup(request):
+    if request.method == 'POST': 
+        #the user wants to sign up. 
+        if request.POST['password'] == request.POST['confirmation']: 
+            User.objects.get(username = request.POST['username'])
+            return render(request, 'signup.html', {'error': 'username is taken'})
+        except User.DoesNotExist: 
+            user = User.objects.create_user(request.POST['username'], password=request.POST['password'])
+            auth.login(request, user)
+```
+
 ### cheatsheet: 
 - django-admin startproject **projectname**
 - python manage.py startapp **appanme**

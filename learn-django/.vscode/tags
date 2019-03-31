@@ -1,0 +1,168 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	1;"	kind:file	line:1
+01-python_refresher.py	../01-python_refresher.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+ALLOWED_HOSTS	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+ALLOWED_HOSTS	../05-tahunt/tahunt-project/tahunt/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AUTH_PASSWORD_VALIDATORS	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:93
+AUTH_PASSWORD_VALIDATORS	../05-tahunt/tahunt-project/tahunt/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:94
+AccountConfig	../05-tahunt/tahunt-project/account/apps.py	/^class AccountConfig(AppConfig):$/;"	kind:class	line:4
+BASE_DIR	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BASE_DIR	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BASE_DIR	../05-tahunt/tahunt-project/tahunt/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Blog	../03-personal_portofolio/portofolio-projects/blog/models.py	/^class Blog(models.Model):$/;"	kind:class	line:4
+BlogConfig	../03-personal_portofolio/portofolio-projects/blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DATABASES	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DATABASES	../05-tahunt/tahunt-project/tahunt/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DEBUG	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DEBUG	../05-tahunt/tahunt-project/tahunt/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Dog	../01-python_refresher.py	/^class Dog: $/;"	kind:class	line:1
+INSTALLED_APPS	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+INSTALLED_APPS	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+INSTALLED_APPS	../05-tahunt/tahunt-project/tahunt/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+Job	../03-personal_portofolio/portofolio-projects/jobs/models.py	/^class Job(models.Model):$/;"	kind:class	line:4
+JobsConfig	../03-personal_portofolio/portofolio-projects/jobs/apps.py	/^class JobsConfig(AppConfig):$/;"	kind:class	line:4
+LANGUAGE_CODE	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+LANGUAGE_CODE	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:112
+LANGUAGE_CODE	../05-tahunt/tahunt-project/tahunt/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:113
+MEDIA_ROOT	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media')$/;"	kind:variable	line:137
+MEDIA_URL	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^MEDIA_URL = '\/media\/'/;"	kind:variable	line:138
+MIDDLEWARE	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+MIDDLEWARE	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+MIDDLEWARE	../05-tahunt/tahunt-project/tahunt/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Migration	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+ProductConfig	../05-tahunt/tahunt-project/product/apps.py	/^class ProductConfig(AppConfig):$/;"	kind:class	line:4
+ROOT_URLCONF	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^ROOT_URLCONF = 'wordcount.urls'$/;"	kind:variable	line:52
+ROOT_URLCONF	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^ROOT_URLCONF = 'portofolio.urls'$/;"	kind:variable	line:54
+ROOT_URLCONF	../05-tahunt/tahunt-project/tahunt/settings.py	/^ROOT_URLCONF = 'tahunt.urls'$/;"	kind:variable	line:54
+SECRET_KEY	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^SECRET_KEY = ''$/;"	kind:variable	line:23
+SECRET_KEY	../05-tahunt/tahunt-project/tahunt/settings.py	/^SECRET_KEY = 'hrq!l4rcvsay7k_xxtl*c)7sf#%da4df-76i)nr1k0sw2ctn4f'$/;"	kind:variable	line:23
+STATICFILES_DIRS	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^STATICFILES_DIRS = [$/;"	kind:variable	line:128
+STATICFILES_FINDERS	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^STATICFILES_FINDERS = ($/;"	kind:variable	line:131
+STATIC_ROOT	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR,'static')$/;"	kind:variable	line:126
+STATIC_URL	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+STATIC_URL	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:127
+STATIC_URL	../05-tahunt/tahunt-project/tahunt/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:127
+TEMPLATES	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TEMPLATES	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TEMPLATES	../05-tahunt/tahunt-project/tahunt/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+TIME_ZONE	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:114
+TIME_ZONE	../05-tahunt/tahunt-project/tahunt/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:115
+USE_I18N	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_I18N	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^USE_I18N = True$/;"	kind:variable	line:116
+USE_I18N	../05-tahunt/tahunt-project/tahunt/settings.py	/^USE_I18N = True$/;"	kind:variable	line:117
+USE_L10N	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_L10N	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^USE_L10N = True$/;"	kind:variable	line:118
+USE_L10N	../05-tahunt/tahunt-project/tahunt/settings.py	/^USE_L10N = True$/;"	kind:variable	line:119
+USE_TZ	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+USE_TZ	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^USE_TZ = True$/;"	kind:variable	line:120
+USE_TZ	../05-tahunt/tahunt-project/tahunt/settings.py	/^USE_TZ = True$/;"	kind:variable	line:121
+WSGI_APPLICATION	../02-django_word_counter/wordcount-project/wordcount/settings.py	/^WSGI_APPLICATION = 'wordcount.wsgi.application'$/;"	kind:variable	line:70
+WSGI_APPLICATION	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	/^WSGI_APPLICATION = 'portofolio.wsgi.application'$/;"	kind:variable	line:72
+WSGI_APPLICATION	../05-tahunt/tahunt-project/tahunt/settings.py	/^WSGI_APPLICATION = 'tahunt.wsgi.application'$/;"	kind:variable	line:72
+__init__	../01-python_refresher.py	/^    def __init__(self, name=" ", age= 0 , furcolor=''): $/;"	kind:member	line:2
+__init__.py	../02-django_word_counter/wordcount-project/wordcount/__init__.py	1;"	kind:file	line:1
+__init__.py	../03-personal_portofolio/portofolio-projects/blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../03-personal_portofolio/portofolio-projects/blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../03-personal_portofolio/portofolio-projects/jobs/__init__.py	1;"	kind:file	line:1
+__init__.py	../03-personal_portofolio/portofolio-projects/jobs/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../03-personal_portofolio/portofolio-projects/portofolio/__init__.py	1;"	kind:file	line:1
+__init__.py	../05-tahunt/tahunt-project/account/__init__.py	1;"	kind:file	line:1
+__init__.py	../05-tahunt/tahunt-project/account/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../05-tahunt/tahunt-project/product/__init__.py	1;"	kind:file	line:1
+__init__.py	../05-tahunt/tahunt-project/product/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../05-tahunt/tahunt-project/tahunt/__init__.py	1;"	kind:file	line:1
+__str__	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    def __str__(self): $/;"	kind:member	line:18
+__str__	../05-tahunt/tahunt-project/account/models.py	/^    def __str__(self):$/;"	kind:member	line:5
+about	../02-django_word_counter/wordcount-project/wordcount/views.py	/^def about(request): $/;"	kind:function	line:33
+account	../05-tahunt/tahunt-project/account/models.py	/^class account(models.Model): $/;"	kind:class	line:4
+admin.py	../03-personal_portofolio/portofolio-projects/blog/admin.py	1;"	kind:file	line:1
+admin.py	../03-personal_portofolio/portofolio-projects/jobs/admin.py	1;"	kind:file	line:1
+admin.py	../05-tahunt/tahunt-project/account/admin.py	1;"	kind:file	line:1
+admin.py	../05-tahunt/tahunt-project/product/admin.py	1;"	kind:file	line:1
+application	../02-django_word_counter/wordcount-project/wordcount/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+application	../03-personal_portofolio/portofolio-projects/portofolio/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+application	../05-tahunt/tahunt-project/tahunt/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../03-personal_portofolio/portofolio-projects/blog/apps.py	1;"	kind:file	line:1
+apps.py	../03-personal_portofolio/portofolio-projects/jobs/apps.py	1;"	kind:file	line:1
+apps.py	../05-tahunt/tahunt-project/account/apps.py	1;"	kind:file	line:1
+apps.py	../05-tahunt/tahunt-project/product/apps.py	1;"	kind:file	line:1
+bark	../01-python_refresher.py	/^    def bark (self, str): $/;"	kind:member	line:7
+body	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    body = models.TextField()$/;"	kind:variable	line:8
+cantik	../03-personal_portofolio/portofolio-projects/jobs/views.py	/^def cantik(request): $/;"	kind:function	line:9
+count	../02-django_word_counter/wordcount-project/wordcount/views.py	/^def count(request): $/;"	kind:function	line:26
+dates	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    def dates(self): $/;"	kind:member	line:14
+dependencies	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+detail	../03-personal_portofolio/portofolio-projects/blog/views.py	/^def detail(request, blog_title): $/;"	kind:function	line:9
+fields	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+home	../02-django_word_counter/wordcount-project/wordcount/views.py	/^def home(request):$/;"	kind:function	line:6
+home	../03-personal_portofolio/portofolio-projects/jobs/views.py	/^def home(request):$/;"	kind:function	line:5
+home	../05-tahunt/tahunt-project/product/views.py	/^def home(request): $/;"	kind:function	line:4
+image	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    image = models.ImageField(upload_to='images\/')$/;"	kind:variable	line:7
+image	../03-personal_portofolio/portofolio-projects/jobs/models.py	/^    image = models.ImageField(upload_to='images\/')$/;"	kind:variable	line:5
+initial	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+initial	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+kontol	../02-django_word_counter/wordcount-project/wordcount/views.py	/^def kontol(request): $/;"	kind:function	line:10
+login	../05-tahunt/tahunt-project/account/views.py	/^def login(request):$/;"	kind:function	line:23
+logout	../05-tahunt/tahunt-project/account/views.py	/^def logout(request):$/;"	kind:function	line:27
+manage.py	../02-django_word_counter/wordcount-project/manage.py	1;"	kind:file	line:1
+manage.py	../03-personal_portofolio/portofolio-projects/manage.py	1;"	kind:file	line:1
+manage.py	../05-tahunt/tahunt-project/manage.py	1;"	kind:file	line:1
+meh	../02-django_word_counter/wordcount-project/wordcount/views.py	/^def meh(request): $/;"	kind:function	line:23
+models.py	../03-personal_portofolio/portofolio-projects/blog/models.py	1;"	kind:file	line:1
+models.py	../03-personal_portofolio/portofolio-projects/jobs/models.py	1;"	kind:file	line:1
+models.py	../05-tahunt/tahunt-project/account/models.py	1;"	kind:file	line:1
+models.py	../05-tahunt/tahunt-project/product/models.py	1;"	kind:file	line:1
+mydog	../01-python_refresher.py	/^mydog = Dog('Sum',2,'Orange')$/;"	kind:variable	line:9
+name	../03-personal_portofolio/portofolio-projects/blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
+name	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	/^            name='Blog',$/;"	kind:variable	line:15
+name	../03-personal_portofolio/portofolio-projects/jobs/apps.py	/^    name = 'jobs'$/;"	kind:variable	line:5
+name	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	/^            name='Job',$/;"	kind:variable	line:15
+name	../05-tahunt/tahunt-project/account/apps.py	/^    name = 'account'$/;"	kind:variable	line:5
+name	../05-tahunt/tahunt-project/product/apps.py	/^    name = 'product'$/;"	kind:variable	line:5
+operations	../03-personal_portofolio/portofolio-projects/blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../03-personal_portofolio/portofolio-projects/jobs/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+post	../03-personal_portofolio/portofolio-projects/blog/views.py	/^def post(request): $/;"	kind:function	line:5
+pub_date	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    pub_date = models.DateTimeField()$/;"	kind:variable	line:6
+settings.py	../02-django_word_counter/wordcount-project/wordcount/settings.py	1;"	kind:file	line:1
+settings.py	../03-personal_portofolio/portofolio-projects/portofolio/settings.py	1;"	kind:file	line:1
+settings.py	../05-tahunt/tahunt-project/tahunt/settings.py	1;"	kind:file	line:1
+signup	../05-tahunt/tahunt-project/account/views.py	/^def signup(request):$/;"	kind:function	line:7
+summary	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    def summary(self): $/;"	kind:member	line:10
+summary	../03-personal_portofolio/portofolio-projects/jobs/models.py	/^    summary = models.CharField(max_length=200) # tiap database harus punya max length biar uniform tiap tablenya$/;"	kind:variable	line:6
+tests.py	../03-personal_portofolio/portofolio-projects/blog/tests.py	1;"	kind:file	line:1
+tests.py	../03-personal_portofolio/portofolio-projects/jobs/tests.py	1;"	kind:file	line:1
+tests.py	../05-tahunt/tahunt-project/account/tests.py	1;"	kind:file	line:1
+tests.py	../05-tahunt/tahunt-project/product/tests.py	1;"	kind:file	line:1
+title	../03-personal_portofolio/portofolio-projects/blog/models.py	/^    title = models.CharField(max_length=255)$/;"	kind:variable	line:5
+urlpatterns	../02-django_word_counter/wordcount-project/wordcount/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urlpatterns	../03-personal_portofolio/portofolio-projects/blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../03-personal_portofolio/portofolio-projects/portofolio/urls.py	/^urlpatterns = [$/;"	kind:variable	line:22
+urlpatterns	../05-tahunt/tahunt-project/account/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urlpatterns	../05-tahunt/tahunt-project/tahunt/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../02-django_word_counter/wordcount-project/wordcount/urls.py	1;"	kind:file	line:1
+urls.py	../03-personal_portofolio/portofolio-projects/blog/urls.py	1;"	kind:file	line:1
+urls.py	../03-personal_portofolio/portofolio-projects/portofolio/urls.py	1;"	kind:file	line:1
+urls.py	../05-tahunt/tahunt-project/account/urls.py	1;"	kind:file	line:1
+urls.py	../05-tahunt/tahunt-project/tahunt/urls.py	1;"	kind:file	line:1
+views.py	../02-django_word_counter/wordcount-project/wordcount/views.py	1;"	kind:file	line:1
+views.py	../03-personal_portofolio/portofolio-projects/blog/views.py	1;"	kind:file	line:1
+views.py	../03-personal_portofolio/portofolio-projects/jobs/views.py	1;"	kind:file	line:1
+views.py	../05-tahunt/tahunt-project/account/views.py	1;"	kind:file	line:1
+views.py	../05-tahunt/tahunt-project/product/views.py	1;"	kind:file	line:1
+wsgi.py	../02-django_word_counter/wordcount-project/wordcount/wsgi.py	1;"	kind:file	line:1
+wsgi.py	../03-personal_portofolio/portofolio-projects/portofolio/wsgi.py	1;"	kind:file	line:1
+wsgi.py	../05-tahunt/tahunt-project/tahunt/wsgi.py	1;"	kind:file	line:1
