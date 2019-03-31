@@ -12,7 +12,7 @@ class Blog(models.Model):
 
 
     def dates(self): 
-        return pub_date.strftime('%b %e %Y')
+        return self.pub_date.strftime('%b %e %Y')
 
     
     def __str__(self): 
