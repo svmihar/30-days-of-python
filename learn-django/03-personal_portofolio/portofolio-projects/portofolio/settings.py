@@ -56,7 +56,7 @@ ROOT_URLCONF = 'portofolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['jobs/hanya_template'],
+        'DIRS': ['jobs/hanya_template', 'blog/hanya_template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

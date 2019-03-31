@@ -29,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
@@ -44,43 +44,34 @@
     </header>
 
     <main role="main">
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Halo, cuk!</h1>
-                <p class="lead text-muted">
-                    website iki mek gae sinau django tok. sakjane gampang tapi digawe ruwet karo wong2 sing seneng karo
-                    serverless architecture.
-                </p>
-                <p>
-                    <a href="#" class="btn btn-primary my-2">ndash mu!</a>
-                </p>
-            </div>
-        </section>
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row">
-                    {% for job in jobs.all %}
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top"
-                                src="{{ job.image.url }}"
-                                alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    {{job.summary}}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container">
+                <h1 class="text-center pt-2">
+                        Blog
+                    </h1>
+                    <br>
+                    <br>
+                    <h2>
+                        latest post
+                    </h2>
+                    <hr/>
+                    {% for postnya in post.all %}
+                    <p>
+                        <small>
+                            {{postnya.pub_date}}
+                        </small>
+                    </p>
+                        <h3>
+                            <a href="" class="">{{postnya.title}}</a> 
+                        </h3>
+                        <img src="{{postnya.image.url}}" class="img-thumbnail" alt="" height="200">
+                    <p>
+                        {{postnya.summary}}
+                    </p>
                     {% endfor %}
-                </div>
-            </div>
         </div>
-        </div>
+        
     </main>
-
+    
     <footer class="text-muted">
         <div class="container">
             <p>

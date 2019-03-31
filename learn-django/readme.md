@@ -111,7 +111,8 @@
         from django.contrib import admin
 
         # Register your models here.
-        from .models import Job 
+        from .models import Job     def __str__(self): 
+        return self.title 
 
         admin.site.register(Job)
         ```
@@ -141,6 +142,23 @@
 ### INCLUDE URLCONF (semacam backlink)
 1. Import the include() function: from django.urls import include, path
 2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+- ini membuat otomatis apapun yang ke save (*dibuat dulu*) `urls.py` ke dalam app nya. 
+- jangan lupa buat ditambah di modelsnya. 
+
+### function inside models.py within class
+- contohnya disini bikin "summary" (just a truncated version of the long text tho.) dari apa yang ada di dalam body (`models.TextField()`)
+- **making dates pretty.**
+    ```python 
+    def dates(self): 
+            return pub_date.strftime('%b %e %Y')
+    ```
+- pake *strftime*.
+
+### make django admin, not showing "objects", but the title of the post. 
+```python 
+    def __str__(self): 
+        return self.title 
+```
 
 ### cheatsheet: 
 - django-admin startproject **projectname**
