@@ -160,6 +160,12 @@
         return self.title 
 ```
 
+### WHEN USING FORM FOR JINJA, DON'T FORGET. 
+```python 
+{% crcsrf_token %}
+```
+to prevent malicious attack (?)
+
 ### cheatsheet: 
 - django-admin startproject **projectname**
 - python manage.py startapp **appanme**

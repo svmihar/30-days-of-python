@@ -56,7 +56,7 @@ ROOT_URLCONF = 'tahunt.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['tahunt/templates', 'product/templates', 'account/templates'],
+        'DIRS': ['product/templates','account/tempates','tahunt/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
