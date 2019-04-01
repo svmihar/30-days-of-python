@@ -9,10 +9,10 @@ def signup(request):
         #the user wants to sign up. 
         if request.POST['password'] == request.POST['confirmation']: 
             try:
-                User.objects.get(username = request.POST['username'])
+                user = User.objects.get(username = request.POST['username'])
                 return render(request, 'signup.html', {'error': 'username is taken'})
             except User.DoesNotExist: 
-                user = User.objects.create_user(request.POST['username'], password=request.POST['password'])
+                user = User.objects.create_user(request.POST['username'], password=request.POST['confirmation'])
                 auth.login(request, user)
                 return redirect('home')
         else: 
@@ -23,9 +23,18 @@ def signup(request):
     return render(request, 'signup.html')
 
 def login(request):
-    return render(request, 'login.html')
+    if request.method == "POST":
+        user = auth.authenticate(username=request.POST['username'], password=request.POST['password'])
+        if user is not None: 
+            auth.login(request, user)
+            return redirect('home')
+        else: 
+            return render(request, 'login.html', {'error':'username or password is invalid'})
+    else: 
+        return render(request, 'login.html')
 
 
 def logout(request):
-    # TODO: route to home page.  
-    return render(request, 'signup.html')
+    if request.method== 'POST': 
+        auth.logout(request)
+        return redirect('home')
