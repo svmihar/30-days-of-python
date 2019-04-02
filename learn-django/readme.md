@@ -180,6 +180,10 @@ from django.contrib import auth
 
 
 ### django custom error handling
+- ini ngecek: 
+  - apakah password form == confimation 
+  - username sudah ada atau belum dari database yang diakses sama models.py
+
 ```python 
 def signup(request):
     if request.method == 'POST': 
@@ -191,6 +195,32 @@ def signup(request):
             user = User.objects.create_user(request.POST['username'], password=request.POST['password'])
             auth.login(request, user)
 ```
+
+### django login 
+```python 
+def login(request):
+    if request.method == "POST":
+        user = auth.authenticate(username=request.POST['username'], password=request.POST['password'])
+        if user is not None: 
+            auth.login(request, user)
+            return redirect('home')
+        else: 
+            return render(request, 'login.html', {'error':'username or password is invalid'})
+    else: 
+        return render(request, 'login.html')
+```
+
+### django logout in views
+```python 
+def logout(request):
+    if request.method== 'POST': 
+        auth.logout(request)
+        return redirect('home')
+```
+
+### django check user logged in 
+# jangan lupa dicatet yang ini
+- gak bisa proses di dalam html, jdi diakalin pake bikin mini form di dalam nav-item nya
 
 ### cheatsheet: 
 - django-admin startproject **projectname**

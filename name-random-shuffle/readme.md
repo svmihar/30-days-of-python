@@ -10,7 +10,7 @@ soal = [1,1,2,2,3,3,4,4,5,5]
 dict_soal = {
     '1': 'TEORI PERSEDIAAN',
     '2': 'TEORI ANTRIAN',
-    '3': 'TEORI PERMAINAN',
+    '3': 'TEORI PERMAINAN',random
     '4': 'GOAL PROGRAMMING',
     '5': 'DYNAMIC PROGRAMMING'
     }
