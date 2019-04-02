@@ -22,8 +22,9 @@ dict_soal = {
     '4': 'GOAL PROGRAMMING',
     '5': 'DYNAMIC PROGRAMMING'
     }
-random.shuffle(nama)
-random.shuffle(soal)
+for i in range(1,random.randint(1,100)):
+    random.shuffle(nama)
+    random.shuffle(soal)
 
 
 kelompok = []
@@ -33,7 +34,6 @@ anggota_sisa = kelompok[-1]
 print(f'tersisa: {anggota_sisa}')
 kelompok.remove([anggota for anggota in anggota_sisa])
 
-daleman = dict()
 fix = dict()
 for i in range(len(kelompok)): 
     fix[i+1]= {
