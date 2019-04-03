@@ -4,7 +4,7 @@ untuk kebutuhan pembagian kelompok dan tugas pada kelas RO 2(Q) Pak Subchan
 
 
 
-pembagian 10 kelompok dengan 33 angota, berarti ada sisa 2 orang yagn akan ditambah secara pada kelompok ke-{random}
+pembagian 10 kelompok dengan 32 angota, berarti ada sisa 2 orang yagn akan ditambah secara pada kelompok ke-{random}
 ```python 
 soal = [1,1,2,2,3,3,4,4,5,5]
 dict_soal = {
