@@ -4,10 +4,13 @@ import time
 import random
 import string
 
-
+import os 
+BASE_DIR = os.getcwd()
+print(BASE_DIR)
 url = 'https://docs.google.com/forms/d/e/1FAIpQLSdM2YRHaHR5A7-aeT_A4cQ_YNbgpnzD91yY-cylhShS1uUdTA/viewform'
 
-driver = webdriver.Chrome(executable_path='../../chromedriver.exe')
+driver = webdriver.Chrome(executable_path=BASE_DIR+'/chromedriver')
+
 driver.get(url)
 def berikutnya(): 
     try:

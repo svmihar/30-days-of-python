@@ -11,6 +11,11 @@ for content in contents:
     if 'MENGISI' in content: 
         nama.append(content[:-24].upper())
 
+print(nama)
+with open('nama.txt', 'w+') as f: 
+    f.writelines(names+'\n' for names in nama)
+
+
 #remove karena gak pernah masuk
 nama.remove('MUHAMAD FARRAS HANINDITO RUKMANTORO')
 
