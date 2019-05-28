@@ -54,7 +54,7 @@ class Maze:
         return output
 
     def goal_test(self, ml): 
-        return ml == self.goal
+        return ml == self.end
 
     def successors(self, ml): 
         """

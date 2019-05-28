@@ -29,7 +29,7 @@ class Node(Generic[T]):
     def __lt__(self, other): 
         return (self.cost + self.heuristic) < (other.cost + other.heuristic)
 
-def dfs(self, initial, goal_test, successors): 
+def dfs(initial, goal_test, successors): 
     frontier = Stack()
     frontier.push(Node(initial, None))
     explored = {initial}
@@ -39,14 +39,15 @@ def dfs(self, initial, goal_test, successors):
         current_state = current_node.state
         if goal_test(current_state): 
             return current_node
-        for child in successors[current_state]: 
+        for child in successors(current_state): 
             if child in explored:
                 continue
-        explored.add(child)
-        frontier.push(Node(child, current_node))
+            explored.add(child)
+            frontier.push(Node(child, current_node))
     return None
 
-def node_to_path(self, node): 
+
+def node_to_path(node): 
     path = [node.state]
     while node.parent is not None: 
         node = node.parent
