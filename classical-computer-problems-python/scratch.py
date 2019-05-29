@@ -9,7 +9,6 @@ ALL NOTES AND CATETAN WILL BE AT THE IPYNB FILE.
 from enum import Enum
 from typing import List, NamedTuple, Callable, Optional
 import random 
-from math import sqrt 
 from generic_search import dfs, node_to_path, Node
 
 
@@ -83,6 +82,23 @@ class Maze:
         self._grid[self.start.row][self.start.column] = Cell.START
         self._grid[self.end.row][self.end.column] = Cell.END
     
+def manhattan_distance(goal: MazeLocation): 
+    def distance(ml: MazeLocation): 
+        xdist = abs(ml.column - goal.column)
+        ydist = abs(ml.row - goal.row)
+        return xdist-ydist
+    return distance
+
+from math import sqrt
+def euclidean_distance(goal: MazeLocation): 
+    def distance(ml: MazeLocation):
+        x = ml.column - goal.column
+        y = ml.row - goal.row
+        return sqrt(x**2 + y**2)
+    return distance
+
+
+from generic_search import bfs, astar
 
 if __name__ == "__main__":
     # for i in range(20):
@@ -92,13 +108,56 @@ if __name__ == "__main__":
     
     m = Maze()
     print(m)
+
     sol1 = dfs(m.start, m.goal_test, m.successors)
+    print('-'*10)
+    print('TESTING DFS')
+    print('-'*10)
     if sol1 is None: 
-        print('no solution')
+        print('no solution from dfs')
     else: 
         path1 = node_to_path(sol1)
         m.mark(path1)
         print(m)
         m.clear(path1)
 
-        
+    sol2 = bfs(m.start, m.goal_test, m.successors)
+    print('-'*10)
+    print('TESTING BFS ')
+    print('-'*10)
+    if sol2 is None: 
+        print('no solution from bfs')
+    else: 
+        path2 = node_to_path(sol2)
+        m.mark(path2)
+        print(m)
+        m.clear(path2)
+    
+    
+    ### TESTING A* ###
+    distance = manhattan_distance(m.end)
+    sol3 = astar(m.start, m.goal_test, m.successors, distance)
+    print('-'*10)
+    print('TESTING A*')
+    print('-'*10)
+    if sol3 is None: 
+        print('no solution from a*')
+    else: 
+        path3 = node_to_path(sol3)
+        m.mark(path3)
+        print(m)
+        m.clear(path3)
+
+    ### TESTING A* WITH EUCLIDEAN DISTANCE###
+    distance = euclidean_distance(m.end)
+    sol3 = astar(m.start, m.goal_test, m.successors, distance)
+    print('-'*10)
+    print('TESTING A* WITH EUCLIDEAN DISTANCE')
+    print('-'*10)
+    if sol3 is None: 
+        print('no solution from a*')
+    else: 
+        path3 = node_to_path(sol3)
+        m.mark(path3)
+        print(m)
+        m.clear(path3)
