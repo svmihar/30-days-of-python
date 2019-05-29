@@ -100,26 +100,23 @@ def euclidean_distance(goal: MazeLocation):
 
 from generic_search import bfs, astar
 
-if __name__ == "__main__":
-    # for i in range(20):
-    #     maze = Maze()
-    #     print(maze)
-    #     print('-'*10)
-    
+if __name__ == "__main__":   
     m = Maze()
     print(m)
 
-    sol1 = dfs(m.start, m.goal_test, m.successors)
+    sol1,counter = dfs(m.start, m.goal_test, m.successors)
     print('-'*10)
     print('TESTING DFS')
     print('-'*10)
     if sol1 is None: 
         print('no solution from dfs')
     else: 
+        print(f'uses {counter} steps')
         path1 = node_to_path(sol1)
         m.mark(path1)
         print(m)
         m.clear(path1)
+        # print(sol1.i)
 
     sol2 = bfs(m.start, m.goal_test, m.successors)
     print('-'*10)
@@ -132,6 +129,7 @@ if __name__ == "__main__":
         m.mark(path2)
         print(m)
         m.clear(path2)
+        # print(sol2.i)
     
     
     ### TESTING A* ###
@@ -147,17 +145,19 @@ if __name__ == "__main__":
         m.mark(path3)
         print(m)
         m.clear(path3)
+        # print(sol3.i)
 
     ### TESTING A* WITH EUCLIDEAN DISTANCE###
     distance = euclidean_distance(m.end)
-    sol3 = astar(m.start, m.goal_test, m.successors, distance)
+    sol4 = astar(m.start, m.goal_test, m.successors, distance)
     print('-'*10)
     print('TESTING A* WITH EUCLIDEAN DISTANCE')
     print('-'*10)
-    if sol3 is None: 
+    if sol4 is None: 
         print('no solution from a*')
     else: 
-        path3 = node_to_path(sol3)
+        path3 = node_to_path(sol4)
         m.mark(path3)
         print(m)
         m.clear(path3)
+        # print(sol4.i)

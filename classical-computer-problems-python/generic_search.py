@@ -4,14 +4,20 @@ from collections import deque
 T = TypeVar('T')
 
 class Stack(Generic[T]): 
+    i=0
     def __init__(self):
         self._container = []
+
+    @classmethod
+    def count_action(self):
+        self.i+=1
     
     @property
     def empty(self):
         return not self._container
     
     def push(self, item):
+        Stack.count_action()
         self._container.append(item)
     
     def pop(self):
@@ -20,28 +26,30 @@ class Stack(Generic[T]):
     def __repr__(self): 
         return repr(self._container)
 
-   
 class Node(Generic[T]): 
     def __init__(self, state, parent, cost = 0.0, heuristic =0.0): 
         self.state = state
         self.parent = parent
         self.cost = cost
         self.heuristic = heuristic
-    
+        
     def __lt__(self, other): 
         return (self.cost + self.heuristic) < (other.cost + other.heuristic)
+    
 
 def dfs(initial, goal_test, successors): 
     frontier = Stack()
     frontier.push(Node(initial, None))
     explored = {initial}
+    count = frontier.i
 
     while not frontier.empty: 
         current_node = frontier.pop()
         current_state = current_node.state
         if goal_test(current_state): 
-            return current_node
+            return current_node, count
         for child in successors(current_state): 
+            # current_node.count_action()
             if child in explored:
                 continue
             explored.add(child)
@@ -92,10 +100,12 @@ def bfs(initial, goal_test, successors):
             return current_node
         
         for child in successors(current_state): 
+            # current_node.count_action()
             if child in explored: 
                 continue
             explored.add(child)
             frontier.push(Node(child, current_node))
+
     return None
 
 from heapq import heappop, heappush
@@ -118,16 +128,16 @@ def astar(initial, goal_test, successors, heuristic):
     frontier.push(Node(initial, None, 0.0, heuristic(initial)))
 
     explored = {initial: 0.0}
-
-    while not frontier.empty:
+    while not frontier.empty:        
         current_node = frontier.pop()
         current_state = current_node.state
-
         if goal_test(current_state):
             return current_node
         for child in successors(current_state): 
             new_cost = current_node.cost+1
             if child not in explored or explored[child] > new_cost: 
+                # current_node.count_action()
                 explored[child] = new_cost
                 frontier.push(Node(child, current_node, new_cost, heuristic(child)))
+
     return None
