@@ -111,7 +111,7 @@ if __name__ == "__main__":
     if sol1 is None: 
         print('no solution from dfs')
     else: 
-        print(f'uses {counter} steps')
+        print(f'used {counter} steps')
         path1 = node_to_path(sol1)
         m.mark(path1)
         print(m)

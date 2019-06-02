@@ -10,6 +10,7 @@ class Stack(Generic[T]):
 
     @classmethod
     def count_action(self):
+        print('terpanggil gan')
         self.i+=1
     
     @property
@@ -17,7 +18,6 @@ class Stack(Generic[T]):
         return not self._container
     
     def push(self, item):
-        Stack.count_action()
         self._container.append(item)
     
     def pop(self):
@@ -25,6 +25,9 @@ class Stack(Generic[T]):
 
     def __repr__(self): 
         return repr(self._container)
+    
+    def count(self): 
+        return Stack.i
 
 class Node(Generic[T]): 
     def __init__(self, state, parent, cost = 0.0, heuristic =0.0): 
@@ -49,7 +52,7 @@ def dfs(initial, goal_test, successors):
         if goal_test(current_state): 
             return current_node, count
         for child in successors(current_state): 
-            # current_node.count_action()
+            frontier.count_action()
             if child in explored:
                 continue
             explored.add(child)
