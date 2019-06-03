@@ -6,7 +6,7 @@ D = TypeVar("D")
 
 
 class Constraint(Generic[V, D], ABC):
-    def __init__(self):
+    def __init__(self, variables: List[V]):
         self.variables = variables
 
     @abstractmethod  # artinya harus di override sama subclassnya
@@ -20,7 +20,7 @@ class CSP(Generic[V, D]):
         self.domains = domains
         self.constraints = {}
         for variable in self.variables:
-            self.constraint[variable] = []
+            self.constraints[variable] = []
             if variable not in self.domains:
                 raise LookupError(
                     'Every variables should have a domain assigned to it')
