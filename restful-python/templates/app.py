@@ -21,6 +21,8 @@ class Add(Resource):
                 'Message': 'Error occured', 
                 'Status': 301
             }
+            return return_json
+            
         x = posted_data['x']
         y = posted_data['y']
         x, y = int(x), int(y)
