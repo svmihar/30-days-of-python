@@ -1,15 +1,4 @@
-# insert_project_name_here
-one sentence to describe project
+# readme template 
 
-## installing 
-`pipenv install`
-
-## to do 
-- [ ] insert some
-- [ ] good task 
-- [ ] to do 
-- [ ] when you're 
-- [ ] awake
-
-## learn stuff
-- link to notion. 
+![here for the goodversion](/readme__.md)
+![here for the light version](/readme_.md)
