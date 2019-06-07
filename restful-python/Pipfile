@@ -10,6 +10,7 @@ flask = "*"
 requests = "*"
 bs4 = "*"
 lxml = "*"
+flask-restful = "*"
 
 [requires]
 python_version = "3.7"
