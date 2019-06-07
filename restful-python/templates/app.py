@@ -12,11 +12,16 @@ def check_posted_data(posted_data, function_name):
         else: 
             return 200
 
+def check_json(json, method='Add'): 
+    if 200 != check_posted_data(json, method): 
+        return True 
+    return return_json
+
 class Add(Resource): 
     def post(self): 
         # resource add requested with post
         posted_data = request.get_json()
-        if 200 != check_posted_data(posted_data, "add"): 
+        if check_json(posted_data, method='Add'): 
             return_json = {
                 'Message': 'Error occured', 
                 'Status': 301
@@ -46,13 +51,76 @@ class Add(Resource):
         pass
 
 class Subtract(Resource): 
-    pass
+    def post(self): 
+    # resource add requested with post
+        posted_data = request.get_json()
+        if check_json(posted_data, method='Subtract'): 
+            return_json = {
+                'Message': 'Error occured', 
+                'Status': 301
+            }
+            return return_json
+            
+        x = posted_data['x']
+        y = posted_data['y']
+        x, y = int(x), int(y)
+        ret = x-y 
+
+        return_map = {
+            'Sum': ret, 
+            'Status Code':200 
+        }
+        return jsonify(return_map)
 
 class Multiply(Resource): 
-    pass
+    def post(self): 
+        posted_data = request.get_json()
+        if check_json(posted_data, method='Multiply'): 
+            return_json = {
+                'Message': 'Error occured', 
+                'Status': 301
+            }
+            return return_json
+            
+        x = posted_data['x']
+        y = posted_data['y']
+        x, y = int(x), int(y)
+        ret = x*y 
+
+        return_map = {
+            'Sum': ret, 
+            'Status Code':200 
+        }
+        return jsonify(return_map)
 
 class Divide(Resource): 
-    pass
+    def post(self): 
+        # resource add requested with post
+        posted_data = request.get_json()
+        if check_json(posted_data, method='Add'): 
+            return_json = {
+                'Message': 'Error occured', 
+                'Status': 301
+            }
+            return return_json
+            
+        x = posted_data['x']
+        y = posted_data['y']
+        x, y = int(x), int(y)
+        try: 
+            ret = x/y 
+        except: 
+            return_json = {
+                'Message': 'CANNOT DIVIDE BY ZERO', 
+                'Status': 000
+            }
+            return jsonify(return_json)
+
+        return_map = {
+            'Sum': ret, 
+            'Status Code':200 
+        }
+        return jsonify(return_map)
 
 
 api.add_resource(Add, "/add")
