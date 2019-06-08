@@ -2,6 +2,8 @@ from typing import NamedTuple, List, Dict, Optional
 from random import choice
 from string import ascii_uppercase
 from csp import CSP, Constraint
+from pprint import pprint 
+
 
 Grid = List[List[str]]  # type alias doang
 
@@ -49,11 +51,32 @@ class WordSearchContraint(Constraint[str, List[GridLocation]]):
         self.words = words
 
     def satisfied(self, assignment: Dict[str, List[GridLocation]]) -> bool: 
-        all_locations = [locs for values in assigntment.values() for locs in values]
+        all_locations = [locs for values in assignment.values() for locs in values]
         print(all_locations)
         return len(set(all_locations)) == len(all_locations)
 
 
 
 if __name__ == "__main__":
-    pass
+    grid: Grid = generate(9,9)
+    words: List[str]= ['KEZIA', 'MARANNU', 'BIRING', 'SUMIHAR', 'CHRISTIAN']
+    locations: Dict[str, List[List[GridLocation]]] = {}
+    for word in words: 
+        locations[word] = generate_domain(word, grid)
+    print(locations)
+    
+    csp=CSP(words, locations)
+    csp.add_constraint(WordSearchContraint(words))
+    solution = csp.backtracking_search()
+
+    if solution is None: 
+        print('No solution found')
+    else: 
+        for word, grid_location in solution.items(): 
+            if choice([True, False]): 
+                grid_location.reverse()
+
+            for index, letter in enumerate(word): 
+                (row, col) = (grid_location[index].row, grid_location[index].column)
+                grid[row][col] = letter
+            disp(grid)
