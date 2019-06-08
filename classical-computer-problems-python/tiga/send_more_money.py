@@ -28,4 +28,17 @@ class SendMoreMoney(Constraint[str, int]):
         return True # no conflict here 
 
 if __name__ == "__main__":
-    pass
+    letter = 'S E N D M O R Y'
+    letters = letter.split()
+    possible_digits = {}
+    for letter in letter: 
+        possible_digits[letter] = [x for x in range(10)]
+    possible_digits['M'] = [1] # supaya gak mulai dari 0 
+    csp = CSP(letters, possible_digits)
+    csp.add_constraint(SendMoreMoney(letters))
+    solution = csp.backtracking_search()
+
+    if solution is None: 
+        print('No solution is found')
+    else: 
+        print(solution)
