@@ -13,7 +13,6 @@ class Stack(Generic[T]):
 
     @classmethod
     def count_action(self):
-        print('terpanggil gan')
         self.i += 1
 
     @property
