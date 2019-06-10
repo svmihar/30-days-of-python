@@ -9,7 +9,7 @@ ALL NOTES AND CATETAN WILL BE AT THE IPYNB FILE.
 from enum import Enum
 from typing import List, NamedTuple, Callable, Optional
 import random 
-from dua.generic_search import dfs, node_to_path, Node
+from generic_search import dfs, node_to_path, Node
 
 
 class Cell(str, Enum): 
@@ -98,7 +98,7 @@ def euclidean_distance(goal: MazeLocation):
     return distance
 
 
-from dua.generic_search import bfs, astar
+from generic_search import bfs, astar
 
 if __name__ == "__main__":   
     m = Maze()

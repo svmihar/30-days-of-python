@@ -63,7 +63,7 @@ def dfs(initial, goal_test, successors):
     return None
 
 
-def node_to_path(node):
+def node_to_path(node: Node):
     path = [node.state]
     while node.parent is not None:
         node = node.parent
