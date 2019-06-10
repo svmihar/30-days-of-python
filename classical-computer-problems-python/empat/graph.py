@@ -1,5 +1,5 @@
 from typing import TypeVar, Generic, Optional, List
-from empat.edge import Edge
+from edge import Edge
 
 V = TypeVar('V')
 
