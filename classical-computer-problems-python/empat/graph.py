@@ -8,33 +8,6 @@ class Graph(Generic[V]):
         self._vertices: List[V] = vertices
         self._edges : List[List[Edge]] = [[] for _ in vertices] # adjacency list
 
-    @property
-    def edge_count(self) -> int: 
-        return sum(map(len, self_.edges))
-
-    def add_edge(self, edge: Edge) -> None: 
-        self._edges[edge.u].append(edge)
-        self._edges[edge.v].append(edge.reversed())
-
-    def add_edge_by_indices(self, u: int, v: int) -> None: 
-        edge: Edge = Edge(u,v)
-        self.add_edge(edge)
-
-    def vertex_count(self) -> int: 
-        return len(self._vertices)
-    
-    def add_vertex(self, vertex: V)-> int: 
-        self._vertices.append(vertex)
-        self._edges.append([])
-        return self.vertex_count-1
-
-    def add_edge_by_vertices(self, first: V, second: V) -> None: 
-        v, u = self._vertices.index[first], self._vertices[second]
-        self.add_edge_by_indices(u,v)
-
-    def vertex_at(self, index: int) -> V: 
-        return self._vertices[index]
-    
     def index_of(self, vertex: V): 
         return self._vertices.index(vertex)
 
@@ -55,4 +28,76 @@ class Graph(Generic[V]):
         for i in range(self.vertex_count): 
             desc += f"{self.vertex_at(i)} -> {self.neighbors_for_index(i)}"
         return desc
+
+    @property
+    def edge_count(self) -> int: 
+        return sum(map(len, self_.edges))
+
+    def add_edge(self, edge: Edge) -> None: 
+        self._edges[edge.u].append(edge)
+        self._edges[edge.v].append(edge.reversed())
+
+    def add_edge_by_indices(self, u: int, v: int) -> None: 
+        edge: Edge = Edge(u,v)
+        self.add_edge(edge)
     
+    @property
+    def vertex_count(self) -> int: 
+        return len(self._vertices)
+    
+    def add_vertex(self, vertex: V)-> int: 
+        self._vertices.append(vertex)
+        self._edges.append([])
+        return self.vertex_count-1
+
+    def vertex_at(self, index: int) -> V: 
+        return self._vertices[index]
+    
+    def add_edge_by_vertices(self, first, second): 
+        v = self._vertices.index(first)
+        u = self._vertices.index(second)
+        self.add_edge_by_indices(u,v)
+    
+
+if __name__ == "__main__":
+    # test basic Graph construction
+    city_graph: Graph[str] = Graph(["Seattle", "San Francisco", "Los Angeles", "Riverside", "Phoenix", "Chicago", "Boston", "New York", "Atlanta", "Miami", "Dallas", "Houston", "Detroit", "Philadelphia", "Washington"])
+    city_graph.add_edge_by_vertices("Seattle", "Chicago")
+    city_graph.add_edge_by_vertices("Seattle", "San Francisco")
+    city_graph.add_edge_by_vertices("San Francisco", "Riverside")
+    city_graph.add_edge_by_vertices("San Francisco", "Los Angeles")
+    city_graph.add_edge_by_vertices("Los Angeles", "Riverside")
+    city_graph.add_edge_by_vertices("Los Angeles", "Phoenix")
+    city_graph.add_edge_by_vertices("Riverside", "Phoenix")
+    city_graph.add_edge_by_vertices("Riverside", "Chicago")
+    city_graph.add_edge_by_vertices("Phoenix", "Dallas")
+    city_graph.add_edge_by_vertices("Phoenix", "Houston")
+    city_graph.add_edge_by_vertices("Dallas", "Chicago")
+    city_graph.add_edge_by_vertices("Dallas", "Atlanta")
+    city_graph.add_edge_by_vertices("Dallas", "Houston")
+    city_graph.add_edge_by_vertices("Houston", "Atlanta")
+    city_graph.add_edge_by_vertices("Houston", "Miami")
+    city_graph.add_edge_by_vertices("Atlanta", "Chicago")
+    city_graph.add_edge_by_vertices("Atlanta", "Washington")
+    city_graph.add_edge_by_vertices("Atlanta", "Miami")
+    city_graph.add_edge_by_vertices("Miami", "Washington")
+    city_graph.add_edge_by_vertices("Chicago", "Detroit")
+    city_graph.add_edge_by_vertices("Detroit", "Boston")
+    city_graph.add_edge_by_vertices("Detroit", "Washington")
+    city_graph.add_edge_by_vertices("Detroit", "New York")
+    city_graph.add_edge_by_vertices("Boston", "New York")
+    city_graph.add_edge_by_vertices("New York", "Philadelphia")
+    city_graph.add_edge_by_vertices("Philadelphia", "Washington")
+    print(city_graph)
+
+    import sys
+    sys.path.insert(0, '..') # biar bisa akses parent 
+    from dua.generic_search import bfs, Node, node_to_path
+
+    bfs_result: Optional[Node[V]] = bfs("Boston", lambda x: x == "Miami", city_graph.neighbors_for_vertex)
+    if bfs_result is None:
+        print("No solution found using breadth-first search!")
+    else:
+        path: List[V] = node_to_path(bfs_result)
+        print("Path from Boston to Miami:")
+        print(path)
