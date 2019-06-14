@@ -31,7 +31,7 @@ class Phrase:
         
         return child
     
-    def mutate(self): 
+    def mutate(self, generation): 
         """
         RANDOMLY SWITCH TO ANOTHER CHARACTER.
         mutation_rate = 0.1
@@ -41,6 +41,9 @@ class Phrase:
         """
         for i in range(len(self.characters)): 
             # .01 is the mutation rate
-            if random.random() < .01: 
-                self.characters[i] = chr(random.choice(range(32,127)))
+            if generation > 100: 
+                mutation_rate = random.random()
+                mutation_rate*= (generation/100)
+                if mutation_rate<.01: 
+                    self.characters[i] = chr(random.choice(range(32,127)))
 

@@ -38,7 +38,7 @@ while best_score < len(target):
 
     #BREEEEEEED
         child = mating_pool[x].crossover(mating_pool[y])
-        child.mutate()
+        child.mutate(generation)
 
         population.append(child)
     
