@@ -1,6 +1,6 @@
 import random 
 
-target = 'sumihar christian 1215100115  '
+target = input('INSERT TARGET: ')
 
 
 class Phrase:

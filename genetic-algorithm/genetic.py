@@ -3,7 +3,7 @@ import random
 from phrase import Phrase, target
 from helper import summarize
 
-pop_size = 9999
+pop_size = int(input('how many individual in each generation?\n'))
 population = []
 best_score = 0 
 generation = 1 
