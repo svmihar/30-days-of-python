@@ -1,6 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
-from empat.edge import Edge
+from edge import Edge
 """
 Sebenernya ini mirip dengan yang edge cuman ini ada weighted nya aja tiap path nya. 
 
