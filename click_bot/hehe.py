@@ -10,8 +10,9 @@ def Click_Bot():  # In seconds
     time.sleep(5)  # Time to switch to https://www.mouseaccuracy.com/game
 
     while True:
-        screen = ImageGrab.grab(bbox=(1,260,1594,1736))
-        print('are you ready?')
+        screen = capture_screenshot()
+        screen = screen.crop((1,314,1594,1736))
+        # screen.save(f'image/{asdf}.jpg')
         x, y = screen.size
         print(screen.size)
         c_break = False
@@ -21,13 +22,21 @@ def Click_Bot():  # In seconds
 
             for j in range(0, y, 5):
                 # print(pic.getpixel((i, j)))
-                r, g, b, a = screen.getpixel((i, j))
+                r, g, b = screen.getpixel((i, j))
 
                 if (r in range(230,250)):  # RED
-                    print(f'clicking: {i+1},{j+263}')
-                    pyautogui.click(i+1, j+263)
+                    print(f'clicking: {(i+1)/2},{(j+314)/2}')
+                    pyautogui.click((i+1)/2, (j+314)/2)
                     c_break = True
                     break
+
+def capture_screenshot():
+    # Capture entire screen
+    with mss() as sct:
+        monitor = sct.monitors[1]
+        sct_img = sct.grab(monitor)
+        # Convert to PIL/Pillow Image
+        return Image.frombytes('RGB', sct_img.size, sct_img.bgra, 'raw', 'BGRX')
 
 if __name__ == "__main__":
     Click_Bot()
