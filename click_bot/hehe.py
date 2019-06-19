@@ -7,14 +7,13 @@ import time
 def Click_Bot():  # In seconds
 
     print('time to switch!')
-    time.sleep(5)  # Time to switch to https://www.mouseaccuracy.com/game
+    time.sleep(3)  # Time to switch to https://www.mouseaccuracy.com/game
 
     while True:
         screen = capture_screenshot()
         screen = screen.crop((1,314,1594,1736))
         # screen.save(f'image/{asdf}.jpg')
         x, y = screen.size
-        print(screen.size)
         c_break = False
         for i in range(0, x, 5):  # Skip 10 pixels at each iter.
             if c_break:
