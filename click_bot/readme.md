@@ -8,5 +8,7 @@ inspiration came from [here](https://www.reddit.com/r/Python/comments/c1zx5f/cre
 
 works on mac, fixed the rescaling. 
 
-## scree recording
-![](image/ss.gif)
+## screen recording
+![](https://i.imgur.com/pvJeOtp.gif)
+
+should've been faster 😅
