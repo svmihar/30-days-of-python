@@ -53,7 +53,7 @@ if __name__ == "__main__":
         initial_population,
         threshold=13,
         max_generations=100,
-        mutation_chance=0.1,
+        mutation_chance=0.5,
         crossover_chance=0.7,
     )
     result: SimpleEquation = ga.run()

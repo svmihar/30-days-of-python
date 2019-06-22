@@ -68,7 +68,7 @@ class GeneticAlgorithm(Generic[C]):
         best: C = max(self._population, key=self._fitness_key)
         for generation in range(self._max_generations):
             if best.fitness() >= self._threshold:
-                print('called.')
+                print("called.")
                 return best
             print(
                 f"Generation {generation} Best {best.fitness()} Avg {mean(map(self._fitness_key, self._population))}"
