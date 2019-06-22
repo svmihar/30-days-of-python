@@ -28,7 +28,7 @@ class GeneticAlgorithm(Generic[C]):
         self._max_generations = max_generations
         self._mutation_chance = mutation_chance
         self._crossover_chance = crossover_chance
-        # self._fitness_key = type(self._population[0]).fitness
+        self._fitness_key = type(self._population[0]).fitness
         self._selection_type = selection_type
 
     def _pick_roulette(self, wheel: List[float]) -> Tuple[C, C]:
