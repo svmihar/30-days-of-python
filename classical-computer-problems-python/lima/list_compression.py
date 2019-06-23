@@ -30,5 +30,15 @@ class ListCompression(Chromosome):
     def crossover(self, other): 
         child1 = deepcopy(self)
         child2 = deepcopy(other)
-        idx, idx2 = sample(range(len(self.lst)), k=2)
+        idx1, idx2 = sample(range(len(self.lst)), k=2)
         l1, l2 = child1.lst[idx1], child2.lst[idx2]
+        child1.lst[child1.lst.index(l2)], child1.lst[idx2] = child1.lst[idx2], l2
+        child2.lst[child2.lst.index(l1)], child2.lst[idx1] = child2.lst[idx1], l1
+        return child1, child2 
+
+    def mutate(self) -> None: # swap 2 locations 
+        idx1, idx2 = sample(range(len(self.lst)), k=2)
+        self.lst[idx1], self.lst[idx2] = self.lst[idx2], self.lst[idx1]
+
+    def __str__(self) -> str: 
+        return f"Order: {self.lst} Bytes: {self.bytes_compressed}"
