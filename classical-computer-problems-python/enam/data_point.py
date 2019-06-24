@@ -1,6 +1,7 @@
 from __future__ import annotations
 from typing import Iterator, List, Tuple, Iterable
-from numpy import sqrt
+# from numpy import sqrt
+from math import sqrt 
 
 
 class DataPoint:
