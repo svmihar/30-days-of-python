@@ -16,7 +16,7 @@ class DataPoint:
         # Euclidean distance
         combined: Iterator[Tuple[float, float]] = zip(self.dimensions, other.dimensions)
 
-        differences: List[float] = [(x - y) ** 2 for x in combined]
+        differences: List[float] = [(x - y) ** 2 for x,y in combined]
         return sqrt(sum(differences))
 
     def __eq__(self, other: object) -> bool:

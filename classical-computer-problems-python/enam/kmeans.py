@@ -4,6 +4,7 @@ from copy import deepcopy
 from random import uniform
 from statistics import mean, pstdev
 from dataclasses import dataclass
+from functools import partial
 from data_point import DataPoint
 
 Point = TypeVar("Point", bound=DataPoint)
