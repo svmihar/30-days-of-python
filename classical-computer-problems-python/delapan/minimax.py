@@ -22,16 +22,16 @@ def minimax(board: Board, maximizing:bool, original_player: Piece, max_depth:int
         return worst_eval
     # each recursive call keep tracks the board position, minimizing or maximizing and who we are trying to evaluate. and deal with best case scenario, terminal condition (Win, lose, draw)
 
-    # find best possible move looking up to max-depth ahead.
-    # dibuat karena minimax hanya evalute bool function.
-    def find_best_move(board: Board, max_depth:int=8) -> Move: 
-        best_eval:float = float('-inf')
-        best_move: Move = Move(-1)
-        for move in board.legal_moves: 
-            result: float = minimax(board.move(move), False, board.turn, max_depth)
-            if result > best_eval: 
-                best_eval = result
-                best_move = move
-        return best_move
+# find best possible move looking up to max-depth ahead.
+# dibuat karena minimax hanya evalute bool function.
+def find_best_move(board: Board, max_depth:int=8) -> Move: 
+    best_eval:float = float('-inf')
+    best_move: Move = Move(-1)
+    for move in board.legal_moves: 
+        result: float = minimax(board.move(move), False, board.turn, max_depth)
+        if result > best_eval: 
+            best_eval = result
+            best_move = move
+    return best_move
 
     

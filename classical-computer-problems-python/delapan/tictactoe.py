@@ -24,7 +24,7 @@ def __str__(self) -> str:
 
 
 class TTTBoard(Board):
-    def __init__(Self, position: List[TTTPiece] = [TTTPiece.E]*9, turn: TTTPiece = TTTPiece.X) -> None:
+    def __init__(self, position: List[TTTPiece] = [TTTPiece.E]*9, turn: TTTPiece = TTTPiece.X) -> None:
         self.position: List[TTTPiece] = position
         self._turn: TTTPiece = turn
 
