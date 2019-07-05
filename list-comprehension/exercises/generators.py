@@ -13,11 +13,14 @@ def is_prime(number):
         for n in range(2,number)
               )
 
-def all_together():
+def all_together(*iterables):
     """String together all items from the given iterables."""  
+    for iterable in iterables: 
+        for x in iterable: 
+            yield x
 
 
-def interleave():
+def interleave(ranges):
     """Return iterable of one item at a time from each list."""
 
 
@@ -25,9 +28,16 @@ def translate():
     """Return a transliterated version of the given sentence."""
 
 
-def parse_ranges():
+def parse_ranges(ranges):
     """Return a list of numbers corresponding to number ranges in a string"""
-
+    hasil = []
+    if ',' in ranges: 
+        temp = ranges.split(',')
+        for i in temp:
+            parse_ranges(i)
+    else: 
+        [hasil.append(int(x)) for x in ranges.split('-')]
+        return iter(range(hasil[0], hasil[1]+1))
 
 def first_prime_over():
     """Return the first prime number over a given number."""
