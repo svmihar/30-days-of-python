@@ -40,11 +40,14 @@ class TTTBoard(Board):
         return TTTBoard(temp_position, self._turn.opposite)
 
     @property
-    def legal_moves(self) -> bool:
+    def is_win(self) -> bool:
         # initinya mencari kalo kolom, baris atau diagonal nya tidak kosong dan mempunyai isi yang sama ya berarti gamenya menang.
         # gamenya drawn kalo tidak menang dan tidak ada lagi legal moves nya. dan sudah di cover di class boardnya.
         # 3 row, 3 column and 2 diagonal check.
         return self.position[0] == self.position[1] and self.position[0] == self.position[2] and self.position[0] != TTTPiece.E or self.position[3] == self.position[4] and self.position[3] == self.position[5] and self.position[3] != TTTPiece.E or self.position[6] == self.position[7] and self.position[6] == self.position[8] and self.position[6] != TTTPiece.E or self.position[1] == self.position[4] and self.position[1] == self.position[7] and self.position[1] != TTTPiece.E or self.position[2] == self.position[5] and self.position[2] == self.position[8] and self.position[2] != TTTPiece.E or self.position[0] == self.position[4] and self.position[0] == self.position[8] and self.position[0] != TTTPiece.E or self.position[2] == self.position[4] and self.position[2] == self.position[6] and self.position[2] != TTTPiece.E
+
+    def legal_moves(self) -> List[Move]:
+        return [Move(l) for l in range(len(self.position)) if self.position[l] == TTTPiece.E]
 
     def evaluate(self, player: Piece) -> float:
         if self.is_win and self.turn == player:
@@ -53,7 +56,8 @@ class TTTBoard(Board):
             return 1
         else:
             return 0
-    def __repr__(self) -> str: 
+
+    def __repr__(self) -> str:
         return f"""{self.position[0]} | {self.position[1]} | {self.position[2]}
         {self.position[3]} | {self.position[4]} | {self.position[5]} 
         {self.position[6]} | {self.position[7]} | {self.position[8]}"""
