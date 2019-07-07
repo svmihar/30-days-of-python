@@ -46,8 +46,12 @@ class TTTBoard(Board):
         # 3 row, 3 column and 2 diagonal check.
         return self.position[0] == self.position[1] and self.position[0] == self.position[2] and self.position[0] != TTTPiece.E or self.position[3] == self.position[4] and self.position[3] == self.position[5] and self.position[3] != TTTPiece.E or self.position[6] == self.position[7] and self.position[6] == self.position[8] and self.position[6] != TTTPiece.E or self.position[1] == self.position[4] and self.position[1] == self.position[7] and self.position[1] != TTTPiece.E or self.position[2] == self.position[5] and self.position[2] == self.position[8] and self.position[2] != TTTPiece.E or self.position[0] == self.position[4] and self.position[0] == self.position[8] and self.position[0] != TTTPiece.E or self.position[2] == self.position[4] and self.position[2] == self.position[6] and self.position[2] != TTTPiece.E
 
+    @property
     def legal_moves(self) -> List[Move]:
         return [Move(l) for l in range(len(self.position)) if self.position[l] == TTTPiece.E]
+
+    def is_draw(self) -> bool: 
+        return (not self.is_win) and (len(self.legal_moves) == 0)
 
     def evaluate(self, player: Piece) -> float:
         if self.is_win and self.turn == player:

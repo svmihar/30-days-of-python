@@ -27,7 +27,7 @@ class Board(ABC):
 
     @property
     def is_draw(self) -> bool: 
-        return (not self.is_win) and(len(self.legal_moves) == 0)
+        return (not self.is_win) and (len(self.legal_moves) == 0)
     
     @abstractmethod
     def evaluate(self, player: Piece) -> float: 

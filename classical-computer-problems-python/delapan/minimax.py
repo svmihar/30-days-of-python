@@ -4,7 +4,7 @@ from board import Piece, Board, Move
 # find best possible outcome for original player
 def minimax(board: Board, maximizing:bool, original_player: Piece, max_depth:int=8) -> float: 
     # best case, terminal position met
-    if board.is_win or board.is_draw or max_depth== 0: 
+    if board.is_win or board.is_draw or max_depth == 0: 
         return board.evaluate(original_player)
     
     # recursive case, maximize gains aor minimize opponent gains

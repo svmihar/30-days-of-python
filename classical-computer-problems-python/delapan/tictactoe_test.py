@@ -22,8 +22,8 @@ class TTTMinimaxTestCase(unittest.TestCase):
     def test_hard_position(self):
         # find best move to win in 2 moves
         to_win_hard_positions: List[TTTPiece] = [TTTPiece.X, TTTPiece.E, TTTPiece.E, TTTPiece.E, TTTPiece.E, TTTPiece.O, TTTPiece.O, TTTPiece.X, TTTPiece.E]
-        test_board3 = TTTBoard =TTTBoard(to_win_hard_positions, TTTPiece.X)
-        answer3 = Move = find_best_move(test_board3)
+        test_board3 : TTTBoard =TTTBoard(to_win_hard_positions, TTTPiece.X)
+        answer3 : Move = find_best_move(test_board3)
         self.assertEqual(answer3, 1)
 if __name__ == "__main__":
     unittest.main()
