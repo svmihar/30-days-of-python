@@ -1,5 +1,5 @@
 import string
-
+import os
 
 fancy = '𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ'
 
@@ -14,8 +14,8 @@ for i, char in enumerate(string.ascii_letters):
 
 def fancy_generator(text):
     uhuy = []
-    if type(text) is list: 
-         for word in text:
+    if type(text) is list:
+        for word in text:
             hasil_word = []
             for char in list(word):
                 if char.isalpha():
@@ -35,6 +35,7 @@ def fancy_generator(text):
                     print(f'{char} belum support')
                     continue
             uhuy.append(''.join(hasil_word))
+    os.system(f"echo '{' '.join(uhuy)}' | pbcopy")
     return ' '.join(uhuy)
 
 

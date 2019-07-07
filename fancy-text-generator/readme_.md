@@ -3,4 +3,4 @@ creates a new kind of '𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟�
 
 ## to do 
 - [ ] buat biar bisa dimasukkin ke path 
-- [ ] buat biar otomatis copy ke clipboard.
+- [x] buat biar otomatis copy ke clipboard. (*only in mac*)
