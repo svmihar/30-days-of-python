@@ -29,7 +29,7 @@ def fancy_generator(text):
         for word in text.split():
             hasil_word = []
             for char in list(word):
-                if not char.isalpha():
+                if char.isalpha():
                     hasil_word.append(fancy_dict.get(normal_dict.get(char)))
                 else:
                     print(f'{char} belum support')
