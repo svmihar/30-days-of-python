@@ -1,5 +1,10 @@
+#! .venv/bin/python
 import string
 import os
+import argparse
+
+p = argparse.ArgumentParser()
+p.add_argument('-a', action='store', nargs='+')
 
 fancy = '𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ'
 
@@ -40,5 +45,6 @@ def fancy_generator(text):
 
 
 if __name__ == "__main__":
-    masyuk = input('masukkan string yang ingin dibikin alay bro: \n>')
-    print(fancy_generator(masyuk))
+    args = p.parse_args()
+    hasil = vars(args)['a']
+    print(fancy_generator(hasil))
