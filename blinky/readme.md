@@ -1,5 +1,5 @@
 # blinkies, for cli
-this demonstrates the infamous race conditions, and how to get around it
+this demonstrates the infamous race conditions, and how to get around it <br>
 ![](img/img.gif)
 
 ## requirement
