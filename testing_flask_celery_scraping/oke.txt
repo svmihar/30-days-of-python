@@ -1,0 +1,785 @@
+[Mon Nov  4 11:45:21 2019] - asu
+[Mon Nov  4 11:45:25 2019] - ngehe
+[Mon Nov  4 11:45:28 2019] - ngehe
+[Mon Nov  4 11:45:30 2019] - ngehe
+[Mon Nov  4 11:45:33 2019] - ngehe
+[Mon Nov  4 11:45:35 2019] - ngehe
+[Mon Nov  4 11:45:37 2019] - ngehe
+[Mon Nov  4 11:45:40 2019] - ngehe
+[Mon Nov  4 11:45:42 2019] - ngehe
+[Mon Nov  4 11:45:44 2019] - ngehe
+[Mon Nov  4 11:45:46 2019] - ngehe
+[Mon Nov  4 11:45:49 2019] - ngehe
+[Mon Nov  4 11:45:51 2019] - ngehe
+[Mon Nov  4 11:50:48 2019] - This is the 100th Etext file presented by Project Gutenberg, and
+[Mon Nov  4 11:50:50 2019] - is presented in cooperation with World Library, Inc., from their
+[Mon Nov  4 11:50:52 2019] - Library of the Future and Shakespeare CDROMS.  Project Gutenberg
+[Mon Nov  4 11:50:55 2019] - often releases Etexts that are NOT placed in the Public Domain!!
+[Mon Nov  4 11:50:58 2019] - Shakespeare
+[Mon Nov  4 11:51:00 2019] - *This Etext has certain copyright implications you should read!*
+[Mon Nov  4 11:51:03 2019] - <<THIS ELECTRONIC VERSION OF THE COMPLETE WORKS OF WILLIAM
+[Mon Nov  4 11:51:05 2019] - SHAKESPEARE IS COPYRIGHT 1990-1993 BY WORLD LIBRARY, INC., AND IS
+[Mon Nov  4 11:51:07 2019] - PROVIDED BY PROJECT GUTENBERG ETEXT OF ILLINOIS BENEDICTINE COLLEGE
+[Mon Nov  4 11:51:09 2019] - WITH PERMISSION.  ELECTRONIC AND MACHINE READABLE COPIES MAY BE
+[Mon Nov  4 11:51:12 2019] - DISTRIBUTED SO LONG AS SUCH COPIES (1) ARE FOR YOUR OR OTHERS
+[Mon Nov  4 11:51:14 2019] - PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED
+[Mon Nov  4 11:51:16 2019] - COMMERCIALLY.  PROHIBITED COMMERCIAL DISTRIBUTION INCLUDES BY ANY
+[Mon Nov  4 11:51:18 2019] - SERVICE THAT CHARGES FOR DOWNLOAD TIME OR FOR MEMBERSHIP.>>
+[Mon Nov  4 11:51:20 2019] - *Project Gutenberg is proud to cooperate with The World Library*
+[Mon Nov  4 11:51:23 2019] - in the presentation of The Complete Works of William Shakespeare
+[Mon Nov  4 11:51:23 2019] - for your reading for education and entertainment.  HOWEVER, THIS
+[Mon Nov  4 11:51:23 2019] - IS NEITHER SHAREWARE NOR PUBLIC DOMAIN. . .AND UNDER THE LIBRARY
+[Mon Nov  4 11:51:23 2019] - OF THE FUTURE CONDITIONS OF THIS PRESENTATION. . .NO CHARGES MAY
+[Mon Nov  4 11:51:23 2019] - BE MADE FOR *ANY* ACCESS TO THIS MATERIAL.  YOU ARE ENCOURAGED!!
+[Mon Nov  4 11:51:24 2019] - TO GIVE IT AWAY TO ANYONE YOU LIKE, BUT NO CHARGES ARE ALLOWED!!
+[Mon Nov  4 11:51:24 2019] - **Welcome To The World of Free Plain Vanilla Electronic Texts**
+[Mon Nov  4 11:51:24 2019] - **Etexts Readable By Both Humans and By Computers, Since 1971**
+[Mon Nov  4 11:51:24 2019] - *These Etexts Prepared By Hundreds of Volunteers and Donations*
+[Mon Nov  4 11:51:24 2019] - Information on contacting Project Gutenberg to get Etexts, and
+[Mon Nov  4 11:51:24 2019] - further information is included below.  We need your donations.
+[Mon Nov  4 11:51:25 2019] - The Complete Works of William Shakespeare 
+[Mon Nov  4 11:51:25 2019] - January, 1994  [Etext 
+[Mon Nov  4 11:51:25 2019] - The Library of the Future Complete Works of William Shakespeare 
+[Mon Nov  4 11:51:25 2019] - Library of the Future is a TradeMark (TM) of World Library Inc.
+[Mon Nov  4 11:51:25 2019] - ******This file should be named shaks12.txt or shaks12.zip*****
+[Mon Nov  4 11:51:26 2019] - Corrected EDITIONS of our etexts get a new NUMBER, shaks13.txt
+[Mon Nov  4 11:51:26 2019] - VERSIONS based on separate sources get new LETTER, shaks10a.txt
+[Mon Nov  4 11:51:26 2019] - If you would like further information about World Library, Inc.
+[Mon Nov  4 11:51:26 2019] - Please call them at 1-800-443-0238 or email julianc@netcom.com
+[Mon Nov  4 11:51:26 2019] - Please give them our thanks for their Shakespeare cooperation!
+[Mon Nov  4 11:51:27 2019] - The official release date of all Project Gutenberg Etexts is at
+[Mon Nov  4 11:51:27 2019] - Midnight, Central Time, of the last day of the stated month.  A
+[Mon Nov  4 11:51:27 2019] - preliminary version may often be posted for suggestion, comment
+[Mon Nov  4 11:51:27 2019] - and editing by those who wish to do so.  To be sure you have an
+[Mon Nov  4 11:51:28 2019] - up to date first edition [xxxxx10x.xxx] please check file sizes
+[Mon Nov  4 11:51:28 2019] - in the first week of the next month.  Since our ftp program has
+[Mon Nov  4 11:51:28 2019] - a bug in it that scrambles the date [tried to fix and failed] a
+[Mon Nov  4 11:51:28 2019] - look at the file size will have to do, but we will try to see a
+[Mon Nov  4 11:51:29 2019] - new copy has at least one byte more or less.
+[Mon Nov  4 11:51:29 2019] - Information about Project Gutenberg (one page)
+[Mon Nov  4 11:51:29 2019] - We produce about two million dollars for each hour we work.  The
+[Mon Nov  4 11:51:30 2019] - fifty hours is one conservative estimate for how long it we take
+[Mon Nov  4 11:51:30 2019] - to get any etext selected, entered, proofread, edited, copyright
+[Mon Nov  4 11:51:30 2019] - searched and analyzed, the copyright letters written, etc.  This
+[Mon Nov  4 11:51:30 2019] - projected audience is one hundred million readers.  If our value
+[Mon Nov  4 11:51:30 2019] - per text is nominally estimated at one dollar, then we produce 2
+[Mon Nov  4 11:51:31 2019] - million dollars per hour this year we, will have to do four text
+[Mon Nov  4 11:51:31 2019] - files per month:  thus upping our productivity from one million.
+[Mon Nov  4 11:51:31 2019] - The Goal of Project Gutenberg is to Give Away One Trillion Etext
+[Mon Nov  4 11:51:31 2019] - Files by the December 31, 2001.  [10,000 x 100,000,000=Trillion]
+[Mon Nov  4 11:51:31 2019] - This is ten thousand titles each to one hundred million readers,
+[Mon Nov  4 11:51:31 2019] - which is 10% of the expected number of computer users by the end
+[Mon Nov  4 11:51:32 2019] - of the year 2001.
+[Mon Nov  4 11:51:32 2019] - We need your donations more than ever!
+[Mon Nov  4 11:51:32 2019] - All donations should be made to "Project Gutenberg/IBC", and are
+[Mon Nov  4 11:51:32 2019] - tax deductible to the extent allowable by law ("IBC" is Illinois
+[Mon Nov  4 11:51:32 2019] - Benedictine College).  (Subscriptions to our paper newsletter go
+[Mon Nov  4 11:51:33 2019] - to IBC, too)
+[Mon Nov  4 11:51:33 2019] - For these and other matters, please mail to:
+[Mon Nov  4 11:51:33 2019] - Project Gutenberg
+[Mon Nov  4 11:51:33 2019] - P. O. Box  2782
+[Mon Nov  4 11:51:33 2019] - Champaign, IL 61825
+[Mon Nov  4 11:51:33 2019] - When all other email fails try our Michael S. Hart, Executive Director:
+[Mon Nov  4 11:51:34 2019] - hart@vmd.cso.uiuc.edu (internet)   hart@uiucvmd   (bitnet)
+[Mon Nov  4 11:51:34 2019] - We would prefer to send you this information by email
+[Mon Nov  4 11:51:34 2019] - (Internet, Bitnet, Compuserve, ATTMAIL or MCImail).
+[Mon Nov  4 11:51:34 2019] - ******
+[Mon Nov  4 11:51:34 2019] - If you have an FTP program (or emulator), please
+[Mon Nov  4 11:51:35 2019] - FTP directly to the Project Gutenberg archives:
+[Mon Nov  4 11:51:35 2019] - [Mac users, do NOT point and click. . .type]
+[Mon Nov  4 11:51:35 2019] - ftp mrcnext.cso.uiuc.edu
+[Mon Nov  4 11:51:36 2019] - login:  anonymous
+[Mon Nov  4 11:51:36 2019] - password:  your@login
+[Mon Nov  4 11:51:36 2019] - cd etext/etext91
+[Mon Nov  4 11:51:37 2019] - or cd etext92
+[Mon Nov  4 11:51:38 2019] - or cd etext93 [for new books]  [now also in cd etext/etext93]
+[Mon Nov  4 11:51:38 2019] - or cd etext/articles [get suggest gut for more information]
+[Mon Nov  4 11:51:39 2019] - dir [to see files]
+[Mon Nov  4 11:51:39 2019] - get or mget [to get files. . .set bin for zip files]
+[Mon Nov  4 11:51:39 2019] - GET 0INDEX.GUT
+[Mon Nov  4 11:51:40 2019] - for a list of books
+[Mon Nov  4 11:51:40 2019] - and
+[Mon Nov  4 11:51:41 2019] - GET NEW GUT for general information
+[Mon Nov  4 11:51:42 2019] - and
+[Mon Nov  4 11:51:42 2019] - MGET GUT* for newsletters.
+[Mon Nov  4 11:51:42 2019] - **Information prepared by the Project Gutenberg legal advisor**
+[Mon Nov  4 11:51:42 2019] - ***** SMALL PRINT! for COMPLETE SHAKESPEARE *****
+[Mon Nov  4 11:51:42 2019] - THIS ELECTRONIC VERSION OF THE COMPLETE WORKS OF WILLIAM
+[Mon Nov  4 11:51:43 2019] - SHAKESPEARE IS COPYRIGHT 1990-1993 BY WORLD LIBRARY, INC.,
+[Mon Nov  4 11:51:43 2019] - AND IS PROVIDED BY PROJECT GUTENBERG ETEXT OF
+[Mon Nov  4 11:51:43 2019] - ILLINOIS BENEDICTINE COLLEGE WITH PERMISSION.
+[Mon Nov  4 11:51:43 2019] - Since unlike many other Project Gutenberg-tm etexts, this etext
+[Mon Nov  4 11:51:44 2019] - is copyright protected, and since the materials and methods you
+[Mon Nov  4 11:51:44 2019] - use will effect the Project's reputation, your right to copy and
+[Mon Nov  4 11:51:44 2019] - distribute it is limited by the copyright and other laws, and by
+[Mon Nov  4 11:51:44 2019] - the conditions of this "Small Print!" statement.
+[Mon Nov  4 11:51:45 2019] - 1.  LICENSE
+[Mon Nov  4 11:51:45 2019] -   A) YOU MAY (AND ARE ENCOURAGED) TO DISTRIBUTE ELECTRONIC AND
+[Mon Nov  4 11:51:45 2019] - MACHINE READABLE COPIES OF THIS ETEXT, SO LONG AS SUCH COPIES
+[Mon Nov  4 11:51:45 2019] - (1) ARE FOR YOUR OR OTHERS PERSONAL USE ONLY, AND (2) ARE NOT
+[Mon Nov  4 11:51:45 2019] - DISTRIBUTED OR USED COMMERCIALLY.  PROHIBITED COMMERCIAL
+[Mon Nov  4 11:51:46 2019] - DISTRIBUTION INCLUDES BY ANY SERVICE THAT CHARGES FOR DOWNLOAD
+[Mon Nov  4 11:51:46 2019] - TIME OR FOR MEMBERSHIP.
+[Mon Nov  4 11:51:46 2019] -   B) This license is subject to the conditions that you honor
+[Mon Nov  4 11:51:46 2019] - the refund and replacement provisions of this "small print!"
+[Mon Nov  4 11:51:47 2019] - statement; and that you distribute exact copies of this etext,
+[Mon Nov  4 11:51:48 2019] - including this Small Print statement.  Such copies can be
+[Mon Nov  4 11:51:48 2019] - compressed or any proprietary form (including any form resulting
+[Mon Nov  4 11:51:48 2019] - from word processing or hypertext software), so long as
+[Mon Nov  4 11:51:48 2019] - *EITHER*:
+[Mon Nov  4 11:51:48 2019] -     (1) The etext, when displayed, is clearly readable, and does
+[Mon Nov  4 11:51:49 2019] -   *not* contain characters other than those intended by the
+[Mon Nov  4 11:51:49 2019] -   author of the work, although tilde (~), asterisk (*) and
+[Mon Nov  4 11:51:49 2019] -   underline (_) characters may be used to convey punctuation
+[Mon Nov  4 11:51:49 2019] -   intended by the author, and additional characters may be used
+[Mon Nov  4 11:51:49 2019] -   to indicate hypertext links; OR
+[Mon Nov  4 11:51:50 2019] -     (2) The etext is readily convertible by the reader at no
+[Mon Nov  4 11:51:50 2019] -   expense into plain ASCII, EBCDIC or equivalent form by the
+[Mon Nov  4 11:51:50 2019] -   program that displays the etext (as is the case, for instance,
+[Mon Nov  4 11:51:51 2019] -   with most word processors); OR
+[Mon Nov  4 11:51:51 2019] -     (3) You provide or agree to provide on request at no
+[Mon Nov  4 11:51:52 2019] -   additional cost, fee or expense, a copy of the etext in plain
+[Mon Nov  4 11:51:52 2019] -   ASCII.
+[Mon Nov  4 11:51:52 2019] - 2.  LIMITED WARRANTY; DISCLAIMER OF DAMAGES
+[Mon Nov  4 11:51:52 2019] - This etext may contain a "Defect" in the form of incomplete,
+[Mon Nov  4 11:51:52 2019] - inaccurate or corrupt data, transcription errors, a copyright or
+[Mon Nov  4 11:51:53 2019] - other infringement, a defective or damaged disk, computer virus,
+[Mon Nov  4 11:51:53 2019] - or codes that damage or cannot be read by your equipment.  But
+[Mon Nov  4 11:51:53 2019] - for the "Right of Replacement or Refund" described below, the
+[Mon Nov  4 11:51:53 2019] - Project (and any other party you may receive this etext from as
+[Mon Nov  4 11:51:54 2019] - a PROJECT GUTENBERG-tm etext) disclaims all liability to you for
+[Mon Nov  4 11:51:55 2019] - damages, costs and expenses, including legal fees, and YOU HAVE
+[Mon Nov  4 11:51:55 2019] - NO REMEDIES FOR NEGLIGENCE OR UNDER STRICT LIABILITY, OR FOR
+[Mon Nov  4 11:51:55 2019] - BREACH OF WARRANTY OR CONTRACT, INCLUDING BUT NOT LIMITED TO
+[Mon Nov  4 11:51:55 2019] - INDIRECT, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES, EVEN IF
+[Mon Nov  4 11:51:55 2019] - YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES.
+[Mon Nov  4 11:51:56 2019] - If you discover a Defect in this etext within 90 days of receiv-
+[Mon Nov  4 11:51:56 2019] - ing it, you can receive a refund of the money (if any) you paid
+[Mon Nov  4 11:51:56 2019] - for it by sending an explanatory note within that time to the
+[Mon Nov  4 11:51:57 2019] - person you received it from.  If you received it on a physical
+[Mon Nov  4 11:51:58 2019] - medium, you must return it with your note, and such person may
+[Mon Nov  4 11:51:59 2019] - choose to alternatively give you a replacement copy.  If you
+[Mon Nov  4 11:51:59 2019] - received it electronically, such person may choose to
+[Mon Nov  4 11:51:59 2019] - alternatively give you a second opportunity to receive it
+[Mon Nov  4 11:51:59 2019] - electronically.
+[Mon Nov  4 11:52:00 2019] - THIS ETEXT IS OTHERWISE PROVIDED TO YOU "AS-IS".  NO OTHER
+[Mon Nov  4 11:52:00 2019] - WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ARE MADE TO YOU AS
+[Mon Nov  4 11:52:00 2019] - TO THE ETEXT OR ANY MEDIUM IT MAY BE ON, INCLUDING BUT NOT
+[Mon Nov  4 11:52:00 2019] - LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+[Mon Nov  4 11:52:00 2019] - PARTICULAR PURPOSE.  Some states do not allow disclaimers of
+[Mon Nov  4 11:52:00 2019] - implied warranties or the exclusion or limitation of consequen-
+[Mon Nov  4 11:52:01 2019] - tial damages, so the above disclaimers and exclusions may not
+[Mon Nov  4 11:52:01 2019] - apply to you, and you may have other legal rights.
+[Mon Nov  4 11:52:01 2019] - 3.  INDEMNITY: You will indemnify and hold the Project, its
+[Mon Nov  4 11:52:01 2019] - directors, officers, members and agents harmless from all lia-
+[Mon Nov  4 11:52:01 2019] - bility, cost and expense, including legal fees, that arise
+[Mon Nov  4 11:52:02 2019] - directly or indirectly from any of the following that you do or
+[Mon Nov  4 11:52:02 2019] - cause: [A] distribution of this etext, [B] alteration,
+[Mon Nov  4 11:52:02 2019] - modification, or addition to the etext, or [C] any Defect.
+[Mon Nov  4 11:52:02 2019] - 4.  WHAT IF YOU *WANT* TO SEND MONEY EVEN IF YOU DON'T HAVE TO?
+[Mon Nov  4 11:52:02 2019] - Project Gutenberg is dedicated to increasing the number of
+[Mon Nov  4 11:52:02 2019] - public domain and licensed works that can be freely distributed
+[Mon Nov  4 11:52:03 2019] - in machine readable form.  The Project gratefully accepts
+[Mon Nov  4 11:52:03 2019] - contributions in money, time, scanning machines, OCR software,
+[Mon Nov  4 11:52:03 2019] - public domain etexts, royalty free copyright licenses, and
+[Mon Nov  4 11:52:03 2019] - whatever else you can think of.  Money should be paid to "Pro-
+[Mon Nov  4 11:52:03 2019] - ject Gutenberg Association / Illinois Benedictine College".
+[Mon Nov  4 11:52:04 2019] - WRITE TO US! We can be reached at:
+[Mon Nov  4 11:52:04 2019] -      Internet: hart@vmd.cso.uiuc.edu
+[Mon Nov  4 11:52:04 2019] -        Bitnet: hart@uiucvmd
+[Mon Nov  4 11:52:04 2019] -    CompuServe: >internet:hart@.vmd.cso.uiuc.edu
+[Mon Nov  4 11:52:04 2019] -       Attmail: internet!vmd.cso.uiuc.edu!Hart
+[Mon Nov  4 11:52:04 2019] -         Mail:  Prof. Michael Hart
+[Mon Nov  4 11:52:05 2019] -                P.O. Box 2782
+[Mon Nov  4 11:52:05 2019] -                Champaign, IL 61825
+[Mon Nov  4 11:52:05 2019] - This "Small Print!" by Charles B. Kramer, Attorney
+[Mon Nov  4 11:52:05 2019] - Internet (72600.2026@compuserve.com); TEL: (212-254-5093)
+[Mon Nov  4 11:52:05 2019] - ****   SMALL PRINT! FOR __ COMPLETE SHAKESPEARE ****
+[Mon Nov  4 11:52:06 2019] - ["Small Print" V.12.08.93]
+[Mon Nov  4 11:52:06 2019] - <<THIS ELECTRONIC VERSION OF THE COMPLETE WORKS OF WILLIAM         
+[Mon Nov  4 11:52:06 2019] - SHAKESPEARE IS COPYRIGHT 1990-1993 BY WORLD LIBRARY, INC., AND IS  
+[Mon Nov  4 11:52:06 2019] - PROVIDED BY PROJECT GUTENBERG ETEXT OF ILLINOIS BENEDICTINE COLLEGE
+[Mon Nov  4 11:52:07 2019] - WITH PERMISSION.  ELECTRONIC AND MACHINE READABLE COPIES MAY BE    
+[Mon Nov  4 11:52:08 2019] - DISTRIBUTED SO LONG AS SUCH COPIES (1) ARE FOR YOUR OR OTHERS      
+[Mon Nov  4 11:52:08 2019] - PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED             
+[Mon Nov  4 11:52:08 2019] - COMMERCIALLY.  PROHIBITED COMMERCIAL DISTRIBUTION INCLUDES BY ANY  
+[Mon Nov  4 11:52:08 2019] - SERVICE THAT CHARGES FOR DOWNLOAD TIME OR FOR MEMBERSHIP.>> 
+[Mon Nov  4 11:52:08 2019] - 1609
+[Mon Nov  4 11:52:08 2019] - THE SONNETS
+[Mon Nov  4 11:52:09 2019] - by William Shakespeare
+[Mon Nov  4 11:52:09 2019] -                      1
+[Mon Nov  4 11:52:09 2019] -   From fairest creatures we desire increase,
+[Mon Nov  4 11:52:09 2019] -   That thereby beauty's rose might never die,
+[Mon Nov  4 11:52:09 2019] -   But as the riper should by time decease,
+[Mon Nov  4 11:52:10 2019] -   His tender heir might bear his memory:
+[Mon Nov  4 11:52:10 2019] -   But thou contracted to thine own bright eyes,
+[Mon Nov  4 11:52:10 2019] -   Feed'st thy light's flame with self-substantial fuel,
+[Mon Nov  4 11:52:10 2019] -   Making a famine where abundance lies,
+[Mon Nov  4 11:52:10 2019] -   Thy self thy foe, to thy sweet self too cruel:
+[Mon Nov  4 11:52:10 2019] -   Thou that art now the world's fresh ornament,
+[Mon Nov  4 11:52:11 2019] -   And only herald to the gaudy spring,
+[Mon Nov  4 11:52:11 2019] -   Within thine own bud buriest thy content,
+[Mon Nov  4 11:52:11 2019] -   And tender churl mak'st waste in niggarding:
+[Mon Nov  4 11:52:11 2019] -     Pity the world, or else this glutton be,
+[Mon Nov  4 11:52:11 2019] -     To eat the world's due, by the grave and thee.
+[Mon Nov  4 11:52:12 2019] -                      2
+[Mon Nov  4 11:52:12 2019] -   When forty winters shall besiege thy brow,
+[Mon Nov  4 11:52:12 2019] -   And dig deep trenches in thy beauty's field,
+[Mon Nov  4 11:52:12 2019] -   Thy youth's proud livery so gazed on now,
+[Mon Nov  4 11:52:13 2019] -   Will be a tattered weed of small worth held:  
+[Mon Nov  4 11:52:13 2019] -   Then being asked, where all thy beauty lies,
+[Mon Nov  4 11:52:15 2019] -   Where all the treasure of thy lusty days;
+[Mon Nov  4 11:52:16 2019] -   To say within thine own deep sunken eyes,
+[Mon Nov  4 11:52:16 2019] -   Were an all-eating shame, and thriftless praise.
+[Mon Nov  4 11:52:16 2019] -   How much more praise deserved thy beauty's use,
+[Mon Nov  4 11:52:17 2019] -   If thou couldst answer 'This fair child of mine
+[Mon Nov  4 11:52:19 2019] -   Shall sum my count, and make my old excuse'
+[Mon Nov  4 11:52:20 2019] -   Proving his beauty by succession thine.
+[Mon Nov  4 11:52:20 2019] -     This were to be new made when thou art old,
+[Mon Nov  4 11:52:20 2019] -     And see thy blood warm when thou feel'st it cold.
+[Mon Nov  4 11:52:21 2019] -                      3
+[Mon Nov  4 11:52:21 2019] -   Look in thy glass and tell the face thou viewest,
+[Mon Nov  4 11:52:21 2019] -   Now is the time that face should form another,
+[Mon Nov  4 11:52:21 2019] -   Whose fresh repair if now thou not renewest,
+[Mon Nov  4 11:52:21 2019] -   Thou dost beguile the world, unbless some mother.
+[Mon Nov  4 11:52:21 2019] -   For where is she so fair whose uneared womb
+[Mon Nov  4 11:52:22 2019] -   Disdains the tillage of thy husbandry?
+[Mon Nov  4 11:52:22 2019] -   Or who is he so fond will be the tomb,
+[Mon Nov  4 11:52:22 2019] -   Of his self-love to stop posterity?  
+[Mon Nov  4 11:52:22 2019] -   Thou art thy mother's glass and she in thee
+[Mon Nov  4 11:52:22 2019] -   Calls back the lovely April of her prime,
+[Mon Nov  4 11:52:23 2019] -   So thou through windows of thine age shalt see,
+[Mon Nov  4 11:52:23 2019] -   Despite of wrinkles this thy golden time.
+[Mon Nov  4 11:52:23 2019] -     But if thou live remembered not to be,
+[Mon Nov  4 11:52:23 2019] -     Die single and thine image dies with thee.
+[Mon Nov  4 11:52:23 2019] -                      4
+[Mon Nov  4 11:52:24 2019] -   Unthrifty loveliness why dost thou spend,
+[Mon Nov  4 11:52:24 2019] -   Upon thy self thy beauty's legacy?
+[Mon Nov  4 11:52:24 2019] -   Nature's bequest gives nothing but doth lend,
+[Mon Nov  4 11:52:24 2019] -   And being frank she lends to those are free:
+[Mon Nov  4 11:52:24 2019] -   Then beauteous niggard why dost thou abuse,
+[Mon Nov  4 11:52:25 2019] -   The bounteous largess given thee to give?
+[Mon Nov  4 11:52:25 2019] -   Profitless usurer why dost thou use
+[Mon Nov  4 11:52:25 2019] -   So great a sum of sums yet canst not live?
+[Mon Nov  4 11:52:25 2019] -   For having traffic with thy self alone,
+[Mon Nov  4 11:52:25 2019] -   Thou of thy self thy sweet self dost deceive,
+[Mon Nov  4 11:52:26 2019] -   Then how when nature calls thee to be gone,
+[Mon Nov  4 11:52:27 2019] -   What acceptable audit canst thou leave?  
+[Mon Nov  4 11:52:29 2019] -     Thy unused beauty must be tombed with thee,
+[Mon Nov  4 11:52:30 2019] -     Which used lives th' executor to be.
+[Mon Nov  4 11:52:31 2019] -                      5
+[Mon Nov  4 11:52:31 2019] -   Those hours that with gentle work did frame
+[Mon Nov  4 11:52:32 2019] -   The lovely gaze where every eye doth dwell
+[Mon Nov  4 11:52:32 2019] -   Will play the tyrants to the very same,
+[Mon Nov  4 11:52:32 2019] -   And that unfair which fairly doth excel:
+[Mon Nov  4 11:52:33 2019] -   For never-resting time leads summer on
+[Mon Nov  4 11:52:33 2019] -   To hideous winter and confounds him there,
+[Mon Nov  4 11:52:33 2019] -   Sap checked with frost and lusty leaves quite gone,
+[Mon Nov  4 11:52:33 2019] -   Beauty o'er-snowed and bareness every where:
+[Mon Nov  4 11:52:33 2019] -   Then were not summer's distillation left
+[Mon Nov  4 11:52:34 2019] -   A liquid prisoner pent in walls of glass,
+[Mon Nov  4 11:52:34 2019] -   Beauty's effect with beauty were bereft,
+[Mon Nov  4 11:52:34 2019] -   Nor it nor no remembrance what it was.
+[Mon Nov  4 11:52:34 2019] -     But flowers distilled though they with winter meet,
+[Mon Nov  4 11:52:35 2019] -     Leese but their show, their substance still lives sweet.
+[Mon Nov  4 11:52:35 2019] -                      6  
+[Mon Nov  4 11:52:35 2019] -   Then let not winter's ragged hand deface,
+[Mon Nov  4 11:52:35 2019] -   In thee thy summer ere thou be distilled:
+[Mon Nov  4 11:52:35 2019] -   Make sweet some vial; treasure thou some place,
+[Mon Nov  4 11:52:35 2019] -   With beauty's treasure ere it be self-killed:
+[Mon Nov  4 11:52:36 2019] -   That use is not forbidden usury,
+[Mon Nov  4 11:52:36 2019] -   Which happies those that pay the willing loan;
+[Mon Nov  4 11:52:36 2019] -   That's for thy self to breed another thee,
+[Mon Nov  4 11:52:37 2019] -   Or ten times happier be it ten for one,
+[Mon Nov  4 11:52:37 2019] -   Ten times thy self were happier than thou art,
+[Mon Nov  4 11:52:38 2019] -   If ten of thine ten times refigured thee:
+[Mon Nov  4 11:52:38 2019] -   Then what could death do if thou shouldst depart,
+[Mon Nov  4 11:52:38 2019] -   Leaving thee living in posterity?
+[Mon Nov  4 11:52:39 2019] -     Be not self-willed for thou art much too fair,
+[Mon Nov  4 11:52:39 2019] -     To be death's conquest and make worms thine heir.
+[Mon Nov  4 11:52:39 2019] -                      7
+[Mon Nov  4 11:52:40 2019] -   Lo in the orient when the gracious light
+[Mon Nov  4 11:52:40 2019] -   Lifts up his burning head, each under eye
+[Mon Nov  4 11:52:40 2019] -   Doth homage to his new-appearing sight,
+[Mon Nov  4 11:52:40 2019] -   Serving with looks his sacred majesty,  
+[Mon Nov  4 11:52:41 2019] -   And having climbed the steep-up heavenly hill,
+[Mon Nov  4 11:52:43 2019] -   Resembling strong youth in his middle age,
+[Mon Nov  4 11:52:45 2019] -   Yet mortal looks adore his beauty still,
+[Mon Nov  4 11:52:47 2019] -   Attending on his golden pilgrimage:
+[Mon Nov  4 11:52:47 2019] -   But when from highmost pitch with weary car,
+[Mon Nov  4 11:52:48 2019] -   Like feeble age he reeleth from the day,
+[Mon Nov  4 11:52:48 2019] -   The eyes (fore duteous) now converted are
+[Mon Nov  4 11:52:49 2019] -   From his low tract and look another way:
+[Mon Nov  4 11:52:49 2019] -     So thou, thy self out-going in thy noon:
+[Mon Nov  4 11:52:49 2019] -     Unlooked on diest unless thou get a son.
+[Mon Nov  4 11:52:49 2019] -                      8
+[Mon Nov  4 11:52:50 2019] -   Music to hear, why hear'st thou music sadly?
+[Mon Nov  4 11:52:50 2019] -   Sweets with sweets war not, joy delights in joy:
+[Mon Nov  4 11:52:50 2019] -   Why lov'st thou that which thou receiv'st not gladly,
+[Mon Nov  4 11:52:50 2019] -   Or else receiv'st with pleasure thine annoy?
+[Mon Nov  4 11:52:51 2019] -   If the true concord of well-tuned sounds,
+[Mon Nov  4 11:52:51 2019] -   By unions married do offend thine ear,
+[Mon Nov  4 11:52:51 2019] -   They do but sweetly chide thee, who confounds
+[Mon Nov  4 11:52:51 2019] -   In singleness the parts that thou shouldst bear:  
+[Mon Nov  4 11:52:53 2019] -   Mark how one string sweet husband to another,
+[Mon Nov  4 11:52:54 2019] -   Strikes each in each by mutual ordering;
+[Mon Nov  4 11:52:54 2019] -   Resembling sire, and child, and happy mother,
+[Mon Nov  4 11:52:54 2019] -   Who all in one, one pleasing note do sing:
+[Mon Nov  4 11:52:54 2019] -     Whose speechless song being many, seeming one,
+[Mon Nov  4 11:52:55 2019] -     Sings this to thee, 'Thou single wilt prove none'.
+[Mon Nov  4 11:52:55 2019] -                      9
+[Mon Nov  4 11:52:57 2019] -   Is it for fear to wet a widow's eye,
+[Mon Nov  4 11:52:59 2019] -   That thou consum'st thy self in single life?
+[Mon Nov  4 11:53:01 2019] -   Ah, if thou issueless shalt hap to die,
+[Mon Nov  4 11:53:02 2019] -   The world will wail thee like a makeless wife,
+[Mon Nov  4 11:53:03 2019] -   The world will be thy widow and still weep,
+[Mon Nov  4 11:53:04 2019] -   That thou no form of thee hast left behind,
+[Mon Nov  4 11:53:04 2019] -   When every private widow well may keep,
+[Mon Nov  4 11:53:04 2019] -   By children's eyes, her husband's shape in mind:
+[Mon Nov  4 11:53:05 2019] -   Look what an unthrift in the world doth spend
+[Mon Nov  4 11:53:06 2019] -   Shifts but his place, for still the world enjoys it;
+[Mon Nov  4 11:53:06 2019] -   But beauty's waste hath in the world an end,
+[Mon Nov  4 11:53:07 2019] -   And kept unused the user so destroys it:  
+[Mon Nov  4 11:53:08 2019] -     No love toward others in that bosom sits
+[Mon Nov  4 11:53:09 2019] -     That on himself such murd'rous shame commits.
+[Mon Nov  4 11:53:09 2019] -                      10
+[Mon Nov  4 11:53:09 2019] -   For shame deny that thou bear'st love to any
+[Mon Nov  4 11:53:09 2019] -   Who for thy self art so unprovident.
+[Mon Nov  4 11:53:09 2019] -   Grant if thou wilt, thou art beloved of many,
+[Mon Nov  4 11:53:10 2019] -   But that thou none lov'st is most evident:
+[Mon Nov  4 11:53:10 2019] -   For thou art so possessed with murd'rous hate,
+[Mon Nov  4 11:53:10 2019] -   That 'gainst thy self thou stick'st not to conspire,
+[Mon Nov  4 11:53:10 2019] -   Seeking that beauteous roof to ruinate
+[Mon Nov  4 11:53:11 2019] -   Which to repair should be thy chief desire:
+[Mon Nov  4 11:53:11 2019] -   O change thy thought, that I may change my mind,
+[Mon Nov  4 11:53:11 2019] -   Shall hate be fairer lodged than gentle love?
+[Mon Nov  4 11:53:11 2019] -   Be as thy presence is gracious and kind,
+[Mon Nov  4 11:53:11 2019] -   Or to thy self at least kind-hearted prove,
+[Mon Nov  4 11:53:11 2019] -     Make thee another self for love of me,
+[Mon Nov  4 11:53:12 2019] -     That beauty still may live in thine or thee.
+[Mon Nov  4 11:53:12 2019] -                      11  
+[Mon Nov  4 11:53:12 2019] -   As fast as thou shalt wane so fast thou grow'st,
+[Mon Nov  4 11:53:12 2019] -   In one of thine, from that which thou departest,
+[Mon Nov  4 11:53:12 2019] -   And that fresh blood which youngly thou bestow'st,
+[Mon Nov  4 11:53:13 2019] -   Thou mayst call thine, when thou from youth convertest,
+[Mon Nov  4 11:53:13 2019] -   Herein lives wisdom, beauty, and increase,
+[Mon Nov  4 11:53:13 2019] -   Without this folly, age, and cold decay,
+[Mon Nov  4 11:53:13 2019] -   If all were minded so, the times should cease,
+[Mon Nov  4 11:53:13 2019] -   And threescore year would make the world away:
+[Mon Nov  4 11:53:14 2019] -   Let those whom nature hath not made for store,
+[Mon Nov  4 11:53:14 2019] -   Harsh, featureless, and rude, barrenly perish:
+[Mon Nov  4 11:53:14 2019] -   Look whom she best endowed, she gave thee more;
+[Mon Nov  4 11:53:14 2019] -   Which bounteous gift thou shouldst in bounty cherish:
+[Mon Nov  4 11:53:14 2019] -     She carved thee for her seal, and meant thereby,
+[Mon Nov  4 11:53:15 2019] -     Thou shouldst print more, not let that copy die.
+[Mon Nov  4 11:53:15 2019] -                      12
+[Mon Nov  4 11:53:15 2019] -   When I do count the clock that tells the time,
+[Mon Nov  4 11:53:15 2019] -   And see the brave day sunk in hideous night,
+[Mon Nov  4 11:53:15 2019] -   When I behold the violet past prime,
+[Mon Nov  4 11:53:16 2019] -   And sable curls all silvered o'er with white:  
+[Mon Nov  4 11:53:16 2019] -   When lofty trees I see barren of leaves,
+[Mon Nov  4 11:53:16 2019] -   Which erst from heat did canopy the herd
+[Mon Nov  4 11:53:17 2019] -   And summer's green all girded up in sheaves
+[Mon Nov  4 11:53:19 2019] -   Borne on the bier with white and bristly beard:
+[Mon Nov  4 11:53:20 2019] -   Then of thy beauty do I question make
+[Mon Nov  4 11:53:20 2019] -   That thou among the wastes of time must go,
+[Mon Nov  4 11:53:22 2019] -   Since sweets and beauties do themselves forsake,
+[Mon Nov  4 11:53:22 2019] -   And die as fast as they see others grow,
+[Mon Nov  4 11:53:23 2019] -     And nothing 'gainst Time's scythe can make defence
+[Mon Nov  4 11:53:23 2019] -     Save breed to brave him, when he takes thee hence.
+[Mon Nov  4 11:53:23 2019] -                      13
+[Mon Nov  4 11:53:23 2019] -   O that you were your self, but love you are
+[Mon Nov  4 11:53:23 2019] -   No longer yours, than you your self here live,
+[Mon Nov  4 11:53:24 2019] -   Against this coming end you should prepare,
+[Mon Nov  4 11:53:24 2019] -   And your sweet semblance to some other give.
+[Mon Nov  4 11:53:24 2019] -   So should that beauty which you hold in lease
+[Mon Nov  4 11:53:24 2019] -   Find no determination, then you were
+[Mon Nov  4 11:53:24 2019] -   Your self again after your self's decease,
+[Mon Nov  4 11:53:24 2019] -   When your sweet issue your sweet form should bear.  
+[Mon Nov  4 11:53:25 2019] -   Who lets so fair a house fall to decay,
+[Mon Nov  4 11:53:26 2019] -   Which husbandry in honour might uphold,
+[Mon Nov  4 11:53:26 2019] -   Against the stormy gusts of winter's day
+[Mon Nov  4 11:53:27 2019] -   And barren rage of death's eternal cold?
+[Mon Nov  4 11:53:27 2019] -     O none but unthrifts, dear my love you know,
+[Mon Nov  4 11:53:27 2019] -     You had a father, let your son say so.
+[Mon Nov  4 11:53:27 2019] -                      14
+[Mon Nov  4 11:53:27 2019] -   Not from the stars do I my judgement pluck,
+[Mon Nov  4 11:53:28 2019] -   And yet methinks I have astronomy,
+[Mon Nov  4 11:53:28 2019] -   But not to tell of good, or evil luck,
+[Mon Nov  4 11:53:29 2019] -   Of plagues, of dearths, or seasons' quality,
+[Mon Nov  4 11:53:29 2019] -   Nor can I fortune to brief minutes tell;
+[Mon Nov  4 11:53:29 2019] -   Pointing to each his thunder, rain and wind,
+[Mon Nov  4 11:53:29 2019] -   Or say with princes if it shall go well
+[Mon Nov  4 11:53:30 2019] -   By oft predict that I in heaven find.
+[Mon Nov  4 11:53:30 2019] -   But from thine eyes my knowledge I derive,
+[Mon Nov  4 11:53:30 2019] -   And constant stars in them I read such art
+[Mon Nov  4 11:53:30 2019] -   As truth and beauty shall together thrive
+[Mon Nov  4 11:53:31 2019] -   If from thy self, to store thou wouldst convert:  
+[Mon Nov  4 11:53:31 2019] -     Or else of thee this I prognosticate,
+[Mon Nov  4 11:53:31 2019] -     Thy end is truth's and beauty's doom and date.
+[Mon Nov  4 11:53:31 2019] -                      15
+[Mon Nov  4 11:53:31 2019] -   When I consider every thing that grows
+[Mon Nov  4 11:53:32 2019] -   Holds in perfection but a little moment.
+[Mon Nov  4 11:53:32 2019] -   That this huge stage presenteth nought but shows
+[Mon Nov  4 11:53:32 2019] -   Whereon the stars in secret influence comment.
+[Mon Nov  4 11:53:33 2019] -   When I perceive that men as plants increase,
+[Mon Nov  4 11:53:33 2019] -   Cheered and checked even by the self-same sky:
+[Mon Nov  4 11:53:34 2019] -   Vaunt in their youthful sap, at height decrease,
+[Mon Nov  4 11:53:34 2019] -   And wear their brave state out of memory.
+[Mon Nov  4 11:53:35 2019] -   Then the conceit of this inconstant stay,
+[Mon Nov  4 11:53:35 2019] -   Sets you most rich in youth before my sight,
+[Mon Nov  4 11:53:36 2019] -   Where wasteful time debateth with decay
+[Mon Nov  4 11:53:36 2019] -   To change your day of youth to sullied night,
+[Mon Nov  4 11:53:36 2019] -     And all in war with Time for love of you,
+[Mon Nov  4 11:53:37 2019] -     As he takes from you, I engraft you new.
+[Mon Nov  4 11:53:37 2019] -                      16  
+[Mon Nov  4 11:53:38 2019] -   But wherefore do not you a mightier way
+[Mon Nov  4 11:53:38 2019] -   Make war upon this bloody tyrant Time?
+[Mon Nov  4 11:53:38 2019] -   And fortify your self in your decay
+[Mon Nov  4 11:53:38 2019] -   With means more blessed than my barren rhyme?
+[Mon Nov  4 11:53:39 2019] -   Now stand you on the top of happy hours,
+[Mon Nov  4 11:53:39 2019] -   And many maiden gardens yet unset,
+[Mon Nov  4 11:53:40 2019] -   With virtuous wish would bear you living flowers,
+[Mon Nov  4 11:53:40 2019] -   Much liker than your painted counterfeit:
+[Mon Nov  4 11:53:41 2019] -   So should the lines of life that life repair
+[Mon Nov  4 11:53:41 2019] -   Which this (Time's pencil) or my pupil pen
+[Mon Nov  4 11:53:41 2019] -   Neither in inward worth nor outward fair
+[Mon Nov  4 11:53:41 2019] -   Can make you live your self in eyes of men.
+[Mon Nov  4 11:53:41 2019] -     To give away your self, keeps your self still,
+[Mon Nov  4 11:53:42 2019] -     And you must live drawn by your own sweet skill.
+[Mon Nov  4 11:53:42 2019] -                      17
+[Mon Nov  4 11:53:42 2019] -   Who will believe my verse in time to come
+[Mon Nov  4 11:53:42 2019] -   If it were filled with your most high deserts?
+[Mon Nov  4 11:53:42 2019] -   Though yet heaven knows it is but as a tomb
+[Mon Nov  4 11:53:42 2019] -   Which hides your life, and shows not half your parts:  
+[Mon Nov  4 11:53:43 2019] -   If I could write the beauty of your eyes,
+[Mon Nov  4 11:53:44 2019] -   And in fresh numbers number all your graces,
+[Mon Nov  4 11:53:45 2019] -   The age to come would say this poet lies,
+[Mon Nov  4 11:53:45 2019] -   Such heavenly touches ne'er touched earthly faces.
+[Mon Nov  4 11:53:45 2019] -   So should my papers (yellowed with their age)
+[Mon Nov  4 11:53:46 2019] -   Be scorned, like old men of less truth than tongue,
+[Mon Nov  4 11:53:48 2019] -   And your true rights be termed a poet's rage,
+[Mon Nov  4 11:53:49 2019] -   And stretched metre of an antique song.
+[Mon Nov  4 11:53:50 2019] -     But were some child of yours alive that time,
+[Mon Nov  4 11:53:50 2019] -     You should live twice in it, and in my rhyme.
+[Mon Nov  4 11:53:51 2019] -                      18
+[Mon Nov  4 11:53:52 2019] -   Shall I compare thee to a summer's day?
+[Mon Nov  4 11:53:52 2019] -   Thou art more lovely and more temperate:
+[Mon Nov  4 11:53:53 2019] -   Rough winds do shake the darling buds of May,
+[Mon Nov  4 11:53:53 2019] -   And summer's lease hath all too short a date:
+[Mon Nov  4 11:53:54 2019] -   Sometime too hot the eye of heaven shines,
+[Mon Nov  4 11:53:54 2019] -   And often is his gold complexion dimmed,
+[Mon Nov  4 11:53:54 2019] -   And every fair from fair sometime declines,
+[Mon Nov  4 11:53:54 2019] -   By chance, or nature's changing course untrimmed:  
+[Mon Nov  4 11:53:54 2019] -   But thy eternal summer shall not fade,
+[Mon Nov  4 11:53:55 2019] -   Nor lose possession of that fair thou ow'st,
+[Mon Nov  4 11:53:55 2019] -   Nor shall death brag thou wand'rest in his shade,
+[Mon Nov  4 11:53:55 2019] -   When in eternal lines to time thou grow'st,
+[Mon Nov  4 11:53:55 2019] -     So long as men can breathe or eyes can see,
+[Mon Nov  4 11:53:55 2019] -     So long lives this, and this gives life to thee.
+[Mon Nov  4 11:53:57 2019] -                      19
+[Mon Nov  4 11:53:58 2019] -   Devouring Time blunt thou the lion's paws,
+[Mon Nov  4 11:53:59 2019] -   And make the earth devour her own sweet brood,
+[Mon Nov  4 11:53:59 2019] -   Pluck the keen teeth from the fierce tiger's jaws,
+[Mon Nov  4 11:53:59 2019] -   And burn the long-lived phoenix, in her blood,
+[Mon Nov  4 11:54:01 2019] -   Make glad and sorry seasons as thou fleet'st,
+[Mon Nov  4 11:54:02 2019] -   And do whate'er thou wilt swift-footed Time
+[Mon Nov  4 11:54:03 2019] -   To the wide world and all her fading sweets:
+[Mon Nov  4 11:54:03 2019] -   But I forbid thee one most heinous crime,
+[Mon Nov  4 11:54:04 2019] -   O carve not with thy hours my love's fair brow,
+[Mon Nov  4 11:54:05 2019] -   Nor draw no lines there with thine antique pen,
+[Mon Nov  4 11:54:05 2019] -   Him in thy course untainted do allow,
+[Mon Nov  4 11:54:05 2019] -   For beauty's pattern to succeeding men.  
+[Mon Nov  4 11:54:07 2019] -     Yet do thy worst old Time: despite thy wrong,
+[Mon Nov  4 11:54:08 2019] -     My love shall in my verse ever live young.
+[Mon Nov  4 11:54:09 2019] -                      20
+[Mon Nov  4 11:54:10 2019] -   A woman's face with nature's own hand painted,
+[Mon Nov  4 11:54:11 2019] -   Hast thou the master mistress of my passion,
+[Mon Nov  4 11:54:12 2019] -   A woman's gentle heart but not acquainted
+[Mon Nov  4 11:54:12 2019] -   With shifting change as is false women's fashion,
+[Mon Nov  4 11:54:12 2019] -   An eye more bright than theirs, less false in rolling:
+[Mon Nov  4 11:54:13 2019] -   Gilding the object whereupon it gazeth,
+[Mon Nov  4 11:54:13 2019] -   A man in hue all hues in his controlling,
+[Mon Nov  4 11:54:14 2019] -   Which steals men's eyes and women's souls amazeth.
+[Mon Nov  4 11:54:16 2019] -   And for a woman wert thou first created,
+[Mon Nov  4 11:54:18 2019] -   Till nature as she wrought thee fell a-doting,
+[Mon Nov  4 11:54:18 2019] -   And by addition me of thee defeated,
+[Mon Nov  4 11:54:18 2019] -   By adding one thing to my purpose nothing.
+[Mon Nov  4 11:54:19 2019] -     But since she pricked thee out for women's pleasure,
+[Mon Nov  4 11:54:19 2019] -     Mine be thy love and thy love's use their treasure.
+[Mon Nov  4 11:54:19 2019] -                      21  
+[Mon Nov  4 11:54:21 2019] -   So is it not with me as with that muse,
+[Mon Nov  4 11:54:22 2019] -   Stirred by a painted beauty to his verse,
+[Mon Nov  4 11:54:22 2019] -   Who heaven it self for ornament doth use,
+[Mon Nov  4 11:54:22 2019] -   And every fair with his fair doth rehearse,
+[Mon Nov  4 11:54:23 2019] -   Making a couplement of proud compare
+[Mon Nov  4 11:54:23 2019] -   With sun and moon, with earth and sea's rich gems:
+[Mon Nov  4 11:54:24 2019] -   With April's first-born flowers and all things rare,
+[Mon Nov  4 11:54:25 2019] -   That heaven's air in this huge rondure hems.
+[Mon Nov  4 11:54:26 2019] -   O let me true in love but truly write,
+[Mon Nov  4 11:54:27 2019] -   And then believe me, my love is as fair,
+[Mon Nov  4 11:54:27 2019] -   As any mother's child, though not so bright
+[Mon Nov  4 11:54:27 2019] -   As those gold candles fixed in heaven's air:
+[Mon Nov  4 11:54:28 2019] -     Let them say more that like of hearsay well,
+[Mon Nov  4 11:54:29 2019] -     I will not praise that purpose not to sell.
+[Mon Nov  4 11:54:30 2019] -                      22
+[Mon Nov  4 11:54:31 2019] -   My glass shall not persuade me I am old,
+[Mon Nov  4 11:54:32 2019] -   So long as youth and thou are of one date,
+[Mon Nov  4 11:54:32 2019] -   But when in thee time's furrows I behold,
+[Mon Nov  4 11:54:33 2019] -   Then look I death my days should expiate.  
+[Mon Nov  4 11:54:33 2019] -   For all that beauty that doth cover thee,
+[Mon Nov  4 11:54:35 2019] -   Is but the seemly raiment of my heart,
+[Mon Nov  4 11:54:35 2019] -   Which in thy breast doth live, as thine in me,
+[Mon Nov  4 11:54:36 2019] -   How can I then be elder than thou art?
+[Mon Nov  4 11:54:37 2019] -   O therefore love be of thyself so wary,
+[Mon Nov  4 11:54:38 2019] -   As I not for my self, but for thee will,
+[Mon Nov  4 11:54:39 2019] -   Bearing thy heart which I will keep so chary
+[Mon Nov  4 11:54:39 2019] -   As tender nurse her babe from faring ill.
+[Mon Nov  4 11:54:40 2019] -     Presume not on thy heart when mine is slain,
+[Mon Nov  4 11:54:41 2019] -     Thou gav'st me thine not to give back again.
+[Mon Nov  4 11:54:42 2019] -                      23
+[Mon Nov  4 11:54:42 2019] -   As an unperfect actor on the stage,
+[Mon Nov  4 11:54:42 2019] -   Who with his fear is put beside his part,
+[Mon Nov  4 11:54:43 2019] -   Or some fierce thing replete with too much rage,
+[Mon Nov  4 11:54:43 2019] -   Whose strength's abundance weakens his own heart;
+[Mon Nov  4 11:54:43 2019] -   So I for fear of trust, forget to say,
+[Mon Nov  4 11:54:44 2019] -   The perfect ceremony of love's rite,
+[Mon Nov  4 11:54:44 2019] -   And in mine own love's strength seem to decay,
+[Mon Nov  4 11:54:44 2019] -   O'ercharged with burthen of mine own love's might:  
+[Mon Nov  4 11:54:45 2019] -   O let my looks be then the eloquence,
+[Mon Nov  4 11:54:45 2019] -   And dumb presagers of my speaking breast,
+[Mon Nov  4 11:54:47 2019] -   Who plead for love, and look for recompense,
+[Mon Nov  4 11:54:48 2019] -   More than that tongue that more hath more expressed.
+[Mon Nov  4 11:54:49 2019] -     O learn to read what silent love hath writ,
+[Mon Nov  4 11:54:49 2019] -     To hear with eyes belongs to love's fine wit.
+[Mon Nov  4 11:54:50 2019] -                      24
+[Mon Nov  4 11:54:51 2019] -   Mine eye hath played the painter and hath stelled,
+[Mon Nov  4 11:54:52 2019] -   Thy beauty's form in table of my heart,
+[Mon Nov  4 11:54:53 2019] -   My body is the frame wherein 'tis held,
+[Mon Nov  4 11:54:54 2019] -   And perspective it is best painter's art.
+[Mon Nov  4 11:54:54 2019] -   For through the painter must you see his skill,
+[Mon Nov  4 11:54:54 2019] -   To find where your true image pictured lies,
+[Mon Nov  4 11:54:55 2019] -   Which in my bosom's shop is hanging still,
+[Mon Nov  4 11:54:55 2019] -   That hath his windows glazed with thine eyes:
+[Mon Nov  4 11:54:57 2019] -   Now see what good turns eyes for eyes have done,
+[Mon Nov  4 11:54:58 2019] -   Mine eyes have drawn thy shape, and thine for me
+[Mon Nov  4 11:54:59 2019] -   Are windows to my breast, where-through the sun
+[Mon Nov  4 11:55:00 2019] -   Delights to peep, to gaze therein on thee;  
+[Mon Nov  4 11:55:01 2019] -     Yet eyes this cunning want to grace their art,
+[Mon Nov  4 11:55:01 2019] -     They draw but what they see, know not the heart.
+[Mon Nov  4 11:55:02 2019] -                      25
+[Mon Nov  4 11:55:03 2019] -   Let those who are in favour with their stars,
+[Mon Nov  4 11:55:04 2019] -   Of public honour and proud titles boast,
+[Mon Nov  4 11:55:05 2019] -   Whilst I whom fortune of such triumph bars
+[Mon Nov  4 11:55:06 2019] -   Unlooked for joy in that I honour most;
+[Mon Nov  4 11:55:07 2019] -   Great princes' favourites their fair leaves spread,
+[Mon Nov  4 11:55:08 2019] -   But as the marigold at the sun's eye,
+[Mon Nov  4 11:55:09 2019] -   And in themselves their pride lies buried,
+[Mon Nov  4 11:55:10 2019] -   For at a frown they in their glory die.
+[Mon Nov  4 11:55:10 2019] -   The painful warrior famoused for fight,
+[Mon Nov  4 11:55:10 2019] -   After a thousand victories once foiled,
+[Mon Nov  4 11:55:12 2019] -   Is from the book of honour razed quite,
+[Mon Nov  4 11:55:13 2019] -   And all the rest forgot for which he toiled:
+[Mon Nov  4 11:55:13 2019] -     Then happy I that love and am beloved
+[Mon Nov  4 11:55:13 2019] -     Where I may not remove nor be removed.
+[Mon Nov  4 11:55:15 2019] -                      26  
+[Mon Nov  4 11:55:16 2019] -   Lord of my love, to whom in vassalage
+[Mon Nov  4 11:55:16 2019] -   Thy merit hath my duty strongly knit;
+[Mon Nov  4 11:55:17 2019] -   To thee I send this written embassage
+[Mon Nov  4 11:55:18 2019] -   To witness duty, not to show my wit.
+[Mon Nov  4 11:55:19 2019] -   Duty so great, which wit so poor as mine
+[Mon Nov  4 11:55:19 2019] -   May make seem bare, in wanting words to show it;
+[Mon Nov  4 11:55:20 2019] -   But that I hope some good conceit of thine
+[Mon Nov  4 11:55:20 2019] -   In thy soul's thought (all naked) will bestow it:
+[Mon Nov  4 11:55:20 2019] -   Till whatsoever star that guides my moving,
+[Mon Nov  4 11:55:21 2019] -   Points on me graciously with fair aspect,
+[Mon Nov  4 11:55:21 2019] -   And puts apparel on my tattered loving,
+[Mon Nov  4 11:55:22 2019] -   To show me worthy of thy sweet respect,
+[Mon Nov  4 11:55:22 2019] -     Then may I dare to boast how I do love thee,
+[Mon Nov  4 11:55:22 2019] -     Till then, not show my head where thou mayst prove me.
+[Mon Nov  4 11:55:24 2019] -                      27
+[Mon Nov  4 11:55:25 2019] -   Weary with toil, I haste me to my bed,
+[Mon Nov  4 11:55:25 2019] -   The dear respose for limbs with travel tired,
+[Mon Nov  4 11:55:25 2019] -   But then begins a journey in my head
+[Mon Nov  4 11:55:27 2019] -   To work my mind, when body's work's expired.  
+[Mon Nov  4 11:55:28 2019] -   For then my thoughts (from far where I abide)
+[Mon Nov  4 11:55:29 2019] -   Intend a zealous pilgrimage to thee,
+[Mon Nov  4 11:55:29 2019] -   And keep my drooping eyelids open wide,
+[Mon Nov  4 11:55:31 2019] -   Looking on darkness which the blind do see.
+[Mon Nov  4 11:55:32 2019] -   Save that my soul's imaginary sight
+[Mon Nov  4 11:55:32 2019] -   Presents thy shadow to my sightless view,
+[Mon Nov  4 11:55:32 2019] -   Which like a jewel (hung in ghastly night)
+[Mon Nov  4 11:55:33 2019] -   Makes black night beauteous, and her old face new.
+[Mon Nov  4 11:55:34 2019] -     Lo thus by day my limbs, by night my mind,
+[Mon Nov  4 11:55:35 2019] -     For thee, and for my self, no quiet find.
+[Mon Nov  4 11:55:35 2019] -                      28
+[Mon Nov  4 11:55:36 2019] -   How can I then return in happy plight
+[Mon Nov  4 11:55:37 2019] -   That am debarred the benefit of rest?
+[Mon Nov  4 11:55:38 2019] -   When day's oppression is not eased by night,
+[Mon Nov  4 11:55:39 2019] -   But day by night and night by day oppressed.
+[Mon Nov  4 11:55:40 2019] -   And each (though enemies to either's reign)
+[Mon Nov  4 11:55:40 2019] -   Do in consent shake hands to torture me,
+[Mon Nov  4 11:55:41 2019] -   The one by toil, the other to complain
+[Mon Nov  4 11:55:42 2019] -   How far I toil, still farther off from thee.  
+[Mon Nov  4 11:55:43 2019] -   I tell the day to please him thou art bright,
+[Mon Nov  4 11:55:43 2019] -   And dost him grace when clouds do blot the heaven:
+[Mon Nov  4 11:55:44 2019] -   So flatter I the swart-complexioned night,
+[Mon Nov  4 11:55:45 2019] -   When sparkling stars twire not thou gild'st the even.
+[Mon Nov  4 11:55:46 2019] -     But day doth daily draw my sorrows longer,
+[Mon Nov  4 11:55:46 2019] -     And night doth nightly make grief's length seem stronger
+[Mon Nov  4 11:55:48 2019] -                      29
+[Mon Nov  4 11:55:49 2019] -   When in disgrace with Fortune and men's eyes,
+[Mon Nov  4 11:55:50 2019] -   I all alone beweep my outcast state,
+[Mon Nov  4 11:55:51 2019] -   And trouble deaf heaven with my bootless cries,
+[Mon Nov  4 11:55:52 2019] -   And look upon my self and curse my fate,
+[Mon Nov  4 11:55:52 2019] -   Wishing me like to one more rich in hope,
+[Mon Nov  4 11:55:52 2019] -   Featured like him, like him with friends possessed,
+[Mon Nov  4 11:55:53 2019] -   Desiring this man's art, and that man's scope,
+[Mon Nov  4 11:55:53 2019] -   With what I most enjoy contented least,
+[Mon Nov  4 11:55:55 2019] -   Yet in these thoughts my self almost despising,
+[Mon Nov  4 11:55:56 2019] -   Haply I think on thee, and then my state,
+[Mon Nov  4 11:55:57 2019] -   (Like to the lark at break of day arising
+[Mon Nov  4 11:55:58 2019] -   From sullen earth) sings hymns at heaven's gate,  
+[Mon Nov  4 11:55:59 2019] -     For thy sweet love remembered such wealth brings,
+[Mon Nov  4 11:55:59 2019] -     That then I scorn to change my state with kings.
+[Mon Nov  4 11:56:00 2019] -                      30
+[Mon Nov  4 11:56:01 2019] -   When to the sessions of sweet silent thought,
+[Mon Nov  4 11:56:02 2019] -   I summon up remembrance of things past,
+[Mon Nov  4 11:56:02 2019] -   I sigh the lack of many a thing I sought,
+[Mon Nov  4 11:56:03 2019] -   And with old woes new wail my dear time's waste:
+[Mon Nov  4 11:56:03 2019] -   Then can I drown an eye (unused to flow)
+[Mon Nov  4 11:56:03 2019] -   For precious friends hid in death's dateless night,
+[Mon Nov  4 11:56:05 2019] -   And weep afresh love's long since cancelled woe,
+[Mon Nov  4 11:56:06 2019] -   And moan th' expense of many a vanished sight.
+[Mon Nov  4 11:56:06 2019] -   Then can I grieve at grievances foregone,
+[Mon Nov  4 11:56:07 2019] -   And heavily from woe to woe tell o'er
+[Mon Nov  4 11:56:08 2019] -   The sad account of fore-bemoaned moan,
+[Mon Nov  4 11:56:09 2019] -   Which I new pay as if not paid before.
+[Mon Nov  4 11:56:10 2019] -     But if the while I think on thee (dear friend)
+[Mon Nov  4 11:56:11 2019] -     All losses are restored, and sorrows end.
+[Mon Nov  4 11:56:11 2019] -                      31  
+[Mon Nov  4 11:56:12 2019] -   Thy bosom is endeared with all hearts,
+[Mon Nov  4 11:56:12 2019] -   Which I by lacking have supposed dead,
+[Mon Nov  4 11:56:13 2019] -   And there reigns love and all love's loving parts,
+[Mon Nov  4 11:56:14 2019] -   And all those friends which I thought buried.
+[Mon Nov  4 11:56:15 2019] -   How many a holy and obsequious tear
+[Mon Nov  4 11:56:16 2019] -   Hath dear religious love stol'n from mine eye,
+[Mon Nov  4 11:56:16 2019] -   As interest of the dead, which now appear,
+[Mon Nov  4 11:56:18 2019] -   But things removed that hidden in thee lie.
+[Mon Nov  4 11:56:19 2019] -   Thou art the grave where buried love doth live,
+[Mon Nov  4 11:56:20 2019] -   Hung with the trophies of my lovers gone,
+[Mon Nov  4 11:56:21 2019] -   Who all their parts of me to thee did give,
+[Mon Nov  4 11:56:22 2019] -   That due of many, now is thine alone.
+[Mon Nov  4 11:56:24 2019] -     Their images I loved, I view in thee,
+[Mon Nov  4 11:56:27 2019] -     And thou (all they) hast all the all of me.
+[Mon Nov  4 11:56:29 2019] -                      32
+[Mon Nov  4 11:56:32 2019] -   If thou survive my well-contented day,
+[Mon Nov  4 11:56:34 2019] -   When that churl death my bones with dust shall cover
+[Mon Nov  4 11:56:35 2019] -   And shalt by fortune once more re-survey
+[Mon Nov  4 11:56:36 2019] -   These poor rude lines of thy deceased lover:  
+[Mon Nov  4 11:56:37 2019] -   Compare them with the bett'ring of the time,
+[Mon Nov  4 11:56:40 2019] -   And though they be outstripped by every pen,
+[Mon Nov  4 11:56:42 2019] -   Reserve them for my love, not for their rhyme,
+[Mon Nov  4 11:56:44 2019] -   Exceeded by the height of happier men.
+[Mon Nov  4 11:56:46 2019] -   O then vouchsafe me but this loving thought,
+[Mon Nov  4 11:56:48 2019] -   'Had my friend's Muse grown with this growing age,
+[Mon Nov  4 11:56:50 2019] -   A dearer birth than this his love had brought
+[Mon Nov  4 11:56:51 2019] -   To march in ranks of better equipage:
+[Mon Nov  4 11:56:52 2019] -     But since he died and poets better prove,
+[Mon Nov  4 11:56:53 2019] -     Theirs for their style I'll read, his for his love'.
+[Mon Nov  4 11:56:55 2019] -                      33
+[Mon Nov  4 11:56:56 2019] -   Full many a glorious morning have I seen,
+[Mon Nov  4 11:56:58 2019] -   Flatter the mountain tops with sovereign eye,
+[Mon Nov  4 11:57:00 2019] -   Kissing with golden face the meadows green;
+[Mon Nov  4 11:57:01 2019] -   Gilding pale streams with heavenly alchemy:
+[Mon Nov  4 11:57:01 2019] -   Anon permit the basest clouds to ride,
+[Mon Nov  4 11:57:02 2019] -   With ugly rack on his celestial face,
+[Mon Nov  4 11:57:03 2019] -   And from the forlorn world his visage hide
+[Mon Nov  4 11:57:04 2019] -   Stealing unseen to west with this disgrace:  
+[Mon Nov  4 11:57:05 2019] -   Even so my sun one early morn did shine,
+[Mon Nov  4 11:57:05 2019] -   With all triumphant splendour on my brow,
+[Mon Nov  4 11:57:05 2019] -   But out alack, he was but one hour mine,
+[Mon Nov  4 11:57:07 2019] -   The region cloud hath masked him from me now.
+[Mon Nov  4 11:57:10 2019] -     Yet him for this, my love no whit disdaineth,
+[Mon Nov  4 11:57:12 2019] -     Suns of the world may stain, when heaven's sun staineth.
+[Mon Nov  4 11:57:13 2019] -                      34
+[Mon Nov  4 11:57:13 2019] -   Why didst thou promise such a beauteous day,
+[Mon Nov  4 11:57:15 2019] -   And make me travel forth without my cloak,
+[Mon Nov  4 11:57:17 2019] -   To let base clouds o'ertake me in my way,
+[Mon Nov  4 11:57:18 2019] -   Hiding thy brav'ry in their rotten smoke?
+[Mon Nov  4 11:57:18 2019] -   'Tis not enough that through the cloud thou break,
+[Mon Nov  4 11:57:19 2019] -   To dry the rain on my storm-beaten face,
+[Mon Nov  4 11:57:20 2019] -   For no man well of such a salve can speak,
+[Mon Nov  4 11:57:20 2019] -   That heals the wound, and cures not the disgrace:
+[Mon Nov  4 11:57:21 2019] -   Nor can thy shame give physic to my grief,
+[Mon Nov  4 11:57:21 2019] -   Though thou repent, yet I have still the loss,
+[Mon Nov  4 11:57:21 2019] -   Th' offender's sorrow lends but weak relief
+[Mon Nov  4 11:57:21 2019] -   To him that bears the strong offence's cross.  
+[Mon Nov  4 11:57:21 2019] -     Ah but those tears are pearl which thy love sheds,
+[Mon Nov  4 11:57:22 2019] -     And they are rich, and ransom all ill deeds.
+[Mon Nov  4 11:57:22 2019] -                      35
+[Mon Nov  4 11:57:22 2019] -   No more be grieved at that which thou hast done,
+[Mon Nov  4 11:57:22 2019] -   Roses have thorns, and silver fountains mud,
+[Mon Nov  4 11:57:22 2019] -   Clouds and eclipses stain both moon and sun,
+[Mon Nov  4 11:57:22 2019] -   And loathsome canker lives in sweetest bud.
+[Mon Nov  4 11:57:23 2019] -   All men make faults, and even I in this,
+[Mon Nov  4 11:57:23 2019] -   Authorizing thy trespass with compare,
+[Mon Nov  4 11:57:23 2019] -   My self corrupting salving thy amiss,
+[Mon Nov  4 11:57:24 2019] -   Excusing thy sins more than thy sins are:
+[Mon Nov  4 11:57:24 2019] -   For to thy sensual fault I bring in sense,
+[Mon Nov  4 11:57:24 2019] -   Thy adverse party is thy advocate,
+[Mon Nov  4 11:57:25 2019] -   And 'gainst my self a lawful plea commence:
+[Mon Nov  4 11:57:26 2019] -   Such civil war is in my love and hate,
+[Mon Nov  4 11:57:26 2019] -     That I an accessary needs must be,
+[Mon Nov  4 11:57:26 2019] -     To that sweet thief which sourly robs from me.
+[Mon Nov  4 11:57:26 2019] -                      36  
+[Mon Nov  4 11:57:26 2019] -   Let me confess that we two must be twain,
+[Mon Nov  4 11:57:27 2019] -   Although our undivided loves are one:
+[Mon Nov  4 11:57:27 2019] -   So shall those blots that do with me remain,
+[Mon Nov  4 11:57:27 2019] -   Without thy help, by me be borne alone.
+[Mon Nov  4 11:57:28 2019] -   In our two loves there is but one respect,
+[Mon Nov  4 11:57:28 2019] -   Though in our lives a separable spite,
+[Mon Nov  4 11:57:28 2019] -   Which though it alter not love's sole effect,
+[Mon Nov  4 11:57:28 2019] -   Yet doth it steal sweet hours from love's delight.
+[Mon Nov  4 11:57:28 2019] -   I may not evermore acknowledge thee,
+[Mon Nov  4 11:57:29 2019] -   Lest my bewailed guilt should do thee shame,
+[Mon Nov  4 11:57:29 2019] -   Nor thou with public kindness honour me,
+[Mon Nov  4 11:57:29 2019] -   Unless thou take that honour from thy name:
+[Mon Nov  4 11:57:30 2019] -     But do not so, I love thee in such sort,
+[Mon Nov  4 11:57:31 2019] -     As thou being mine, mine is thy good report.
+[Mon Nov  4 11:57:31 2019] -                      37
+[Mon Nov  4 11:57:31 2019] -   As a decrepit father takes delight,
+[Mon Nov  4 11:57:31 2019] -   To see his active child do deeds of youth,
+[Mon Nov  4 11:57:31 2019] -   So I, made lame by Fortune's dearest spite
+[Mon Nov  4 11:57:31 2019] -   Take all my comfort of thy worth and truth.  
+[Mon Nov  4 11:57:32 2019] -   For whether beauty, birth, or wealth, or wit,
+[Mon Nov  4 11:57:32 2019] -   Or any of these all, or all, or more
+[Mon Nov  4 11:57:32 2019] -   Entitled in thy parts, do crowned sit,
+[Mon Nov  4 11:57:32 2019] -   I make my love engrafted to this store:
+[Mon Nov  4 11:57:32 2019] -   So then I am not lame, poor, nor despised,
+[Mon Nov  4 11:57:33 2019] -   Whilst that this shadow doth such substance give,
+[Mon Nov  4 11:57:33 2019] -   That I in thy abundance am sufficed,
+[Mon Nov  4 11:57:34 2019] -   And by a part of all thy glory live:
+[Mon Nov  4 11:57:34 2019] -     Look what is best, that best I wish in thee,
+[Mon Nov  4 11:57:34 2019] -     This wish I have, then ten times happy me.
+[Mon Nov  4 11:57:34 2019] -                      38
+[Mon Nov  4 11:57:34 2019] -   How can my muse want subject to invent
+[Mon Nov  4 11:57:35 2019] -   While thou dost breathe that pour'st into my verse,
+[Mon Nov  4 11:57:37 2019] -   Thine own sweet argument, too excellent,
+[Mon Nov  4 11:57:39 2019] -   For every vulgar paper to rehearse?
+[Mon Nov  4 11:57:40 2019] -   O give thy self the thanks if aught in me,
+[Mon Nov  4 11:57:40 2019] -   Worthy perusal stand against thy sight,
+[Mon Nov  4 11:57:40 2019] -   For who's so dumb that cannot write to thee,
+[Mon Nov  4 11:57:41 2019] -   When thou thy self dost give invention light?  
+[Mon Nov  4 11:57:41 2019] -   Be thou the tenth Muse, ten times more in worth
+[Mon Nov  4 11:57:41 2019] -   Than those old nine which rhymers invocate,
+[Mon Nov  4 11:57:41 2019] -   And he that calls on thee, let him bring forth
+[Mon Nov  4 11:57:41 2019] -   Eternal numbers to outlive long date.
+[Mon Nov  4 11:57:41 2019] -     If my slight muse do please these curious days,
+[Mon Nov  4 11:57:42 2019] -     The pain be mine, but thine shall be the praise.
+[Mon Nov  4 11:57:42 2019] -                      39
+[Mon Nov  4 11:57:42 2019] -   O how thy worth with manners may I sing,
+[Mon Nov  4 11:57:42 2019] -   When thou art all the better part of me?
+[Mon Nov  4 11:57:42 2019] -   What can mine own praise to mine own self bring:
+[Mon Nov  4 11:57:43 2019] -   And what is't but mine own when I praise thee?
+[Mon Nov  4 11:57:43 2019] -   Even for this, let us divided live,
